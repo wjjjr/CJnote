@@ -9,7 +9,7 @@ main(): Int64 {
     joy.router.get("/{name}", {ctx: JoyContext => 
         let name = ctx.getParam("name") ?? "no name"
         ctx.string("name in parameter path, name=${name}")
-    })
+    }) 
     // 静态路由：GET /abc
     joy.router.get("/abc", {ctx: JoyContext => 
         ctx.string("static path abc")

@@ -1,0 +1,10 @@
+# cj.toml
+[project]
+name = "cj-memo"
+version = "0.1.0"
+description = "A simple memo application using CJoy framework."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[dependencies]
+cjoy = "latest"
