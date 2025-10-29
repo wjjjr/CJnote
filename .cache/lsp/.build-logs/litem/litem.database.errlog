@@ -1,0 +1,41 @@
+[33mwarning[0m: unused import 'std.database.sql.Connection'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\database\default_transaction_manager.cj:3:1:
+  [36m| [0m
+[36m3[0m [36m| [0mimport std.database.sql.Connection[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.database.sql.Transaction'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\database\default_transaction_manager.cj:5:1:
+  [36m| [0m
+[36m5[0m [36m| [0mimport std.database.sql.Transaction[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.database.sql.TransactionAccessMode'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\database\transaction_definition.cj:4:1:
+  [36m| [0m
+[36m4[0m [36m| [0mimport std.database.sql.TransactionAccessMode[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.database.sql.TransactionDeferrableMode'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\database\transaction_definition.cj:5:1:
+  [36m| [0m
+[36m5[0m [36m| [0mimport std.database.sql.TransactionDeferrableMode[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.database.sql.Datasource'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\database\transaction_template.cj:4:1:
+  [36m| [0m
+[36m4[0m [36m| [0mimport std.database.sql.Datasource[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+5 warnings generated, 5 warnings printed.

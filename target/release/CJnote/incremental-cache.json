@@ -1,0 +1,94 @@
+{
+  "packageInformation": {
+    "CJnote.entity": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "8153995597107770897",
+      "timeStamp": 1761546470,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.controllers": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "2366017825822971148",
+      "timeStamp": 1761662730,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.services": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "-5991393456864846210",
+      "timeStamp": 1761663188,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "-4965151079002939836",
+      "timeStamp": 1761646284,
+      "isBuilt": true,
+      "exeName": "main",
+      "hasSubPkgs": true
+    },
+    "CJnote.req": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "-675352915994106009",
+      "timeStamp": 1761662579,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.dao": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "6049610914159273976",
+      "timeStamp": 1761658721,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.resp": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "-787393719581210593",
+      "timeStamp": 1761547798,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.middleware": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "1138248383591503885",
+      "timeStamp": 1761650654,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.mysql": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "8911006445321220902",
+      "timeStamp": 1761486421,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.models": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "3294054696935467028",
+      "timeStamp": 1761116416,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "CJnote.routes": {
+      "rootPackageName": "CJnote",
+      "fileNameHash": "611526660951816450",
+      "timeStamp": 1761658028,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "-3196482715720184694",
+  "rootPackageName": "CJnote"
+}

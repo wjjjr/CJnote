@@ -1,0 +1,7 @@
+load cached info failed, roll back to full compilation
+incremental compile result kind: rollback
+full sema
+[CachedMangleMap] empty
+[CachedMangleMap] empty
+[CHIR Effect Map] START
+[CHIR Effect Map] END

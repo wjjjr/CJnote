@@ -1,0 +1,49 @@
+[33mwarning[0m: unused import 'std.ast.Token'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\macros\generate\entity_context.cj:3:1:
+  [36m| [0m
+[36m3[0m [36m| [0mimport std.ast.Token[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.ast.Tokens'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\macros\generate\entity_context.cj:4:1:
+  [36m| [0m
+[36m4[0m [36m| [0mimport std.ast.Tokens[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.ast.CallExpr'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\macros\generate\generate_metadata.cj:3:1:
+  [36m| [0m
+[36m3[0m [36m| [0mimport std.ast.CallExpr[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.ast.FuncDecl'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\macros\generate\generate_metadata.cj:4:1:
+  [36m| [0m
+[36m4[0m [36m| [0mimport std.ast.FuncDecl[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.ast.RefType'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\macros\generate\generate_metadata.cj:9:1:
+  [36m| [0m
+[36m9[0m [36m| [0mimport std.ast.RefType[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.ast.parseDecl'
+  [36m==>[0m E:\cjproject\CJnote\litem\src\macros\generate\generate_metadata.cj:10:1:
+   [36m| [0m
+[36m10[0m [36m| [0mimport std.ast.parseDecl[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+6 warnings generated, 6 warnings printed.

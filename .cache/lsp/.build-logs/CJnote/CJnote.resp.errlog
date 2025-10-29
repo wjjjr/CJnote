@@ -1,0 +1,196 @@
+[33mwarning[0m: unused import 'cjoy.bind.*'
+ [36m==>[0m E:\cjproject\CJnote\src\resp\memo.cj:2:1:
+  [36m| [0m
+[36m2[0m [36m| [0mimport cjoy.bind.*[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'nestedValid'
+    [36m| [0m
+    [36m| [0m/* 9.139 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                   [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the code after the macro is expanded as follows
+    [36m| [0m
+    [36m| [0m  /* 9.1 */public class MenuInsertReq <: JsonSerializable & JsonDeserializable < MenuInsertReq > & Jsonable {[0m
+    [36m| [0m [34m_[0m[34m^[0m
+    [36m| [0m[34m|[0m /* 9.2 */    public var mId: Int64 = 0[0m
+    [36m| [0m[34m|[0m /* 9.3 */    [0m
+    [36m| [0m[34m|[0m /* 9.4 */    public var title: String = ""[0m
+    [36m| [0m[34m|[0m /* 9.5 */    [0m
+    [36m| [0m[34m|[0m /* 9.6 */    public var context: String = ""[0m
+    [36m| [0m[34m|[0m /* 9.7 */    [0m
+    [36m| [0m[34m|[0m /* 9.8 */    public var stime: DateTime = DateTime.now()[0m
+    [36m| [0m[34m|[0m /* 9.9 */    [0m
+    [36m| [0m[34m|[0m /* 9.10 */    public var etime: DateTime = DateTime.now()[0m
+    [36m| [0m[34m|[0m /* 9.11 */    [0m
+    [36m| [0m[34m|[0m /* 9.12 */    [0m
+    [36m| [0m[34m|[0m /* 9.13 */    [0m
+    [36m| [0m[34m|[0m /* 9.14 */    public init(mId!: Int64 = 0, title!: String = "", context!: String = "", stime!: DateTime = DateTime.now(), etime!: DateTime = DateTime.now()) {[0m
+    [36m| [0m[34m|[0m /* 9.15 */        this.mId = mId[0m
+    [36m| [0m[34m|[0m /* 9.16 */        this.title = title[0m
+    [36m| [0m[34m|[0m /* 9.17 */        this.context = context[0m
+    [36m| [0m[34m|[0m /* 9.18 */        this.stime = stime[0m
+    [36m| [0m[34m|[0m /* 9.19 */        this.etime = etime[0m
+    [36m| [0m[34m|[0m /* 9.20 */    }[0m
+    [36m| [0m[34m|[0m /* 9.21 */    [0m
+    [36m| [0m[34m|[0m /* 9.22 */    [0m
+    [36m| [0m[34m|[0m /* 9.23 */    [0m
+    [36m| [0m[34m|[0m /* 9.24 */    public func toJson(writer: JsonWriter): Unit {[0m
+    [36m| [0m[34m|[0m /* 9.25 */        writer.startObject()[0m
+    [36m| [0m[34m|[0m /* 9.26 */        [0m
+    [36m| [0m[34m|[0m /* 9.27 */        write(writer)[0m
+    [36m| [0m[34m|[0m /* 9.28 */        writer.endObject()[0m
+    [36m| [0m[34m|[0m /* 9.29 */    }[0m
+    [36m| [0m[34m|[0m /* 9.30 */    [0m
+    [36m| [0m[34m|[0m /* 9.31 */    protected func write(writer: JsonWriter): Unit {[0m
+    [36m| [0m[34m|[0m /* 9.32 */        writer.writeName("mId").writeValue(mId)[0m
+    [36m| [0m[34m|[0m /* 9.33 */        writer.writeName("title").writeValue(title)[0m
+    [36m| [0m[34m|[0m /* 9.34 */        writer.writeName("context").writeValue(context)[0m
+    [36m| [0m[34m|[0m /* 9.35 */        writer.writeName("stime").writeValue(stime.toString())[0m
+    [36m| [0m[34m|[0m /* 9.36 */        writer.writeName("etime").writeValue(etime.toString())[0m
+    [36m| [0m[34m|[0m /* 9.37 */        [0m
+    [36m| [0m[34m|[0m /* 9.38 */    }[0m
+    [36m| [0m[34m|[0m /* 9.39 */    [0m
+    [36m| [0m[34m|[0m /* 9.40 */    [0m
+    [36m| [0m[34m|[0m /* 9.41 */    protected static func read(obj: MenuInsertReq, name: String, reader: JsonReader): Bool {[0m
+    [36m| [0m[34m|[0m /* 9.42 */        match(name) {[0m
+    [36m| [0m[34m|[0m /* 9.43 */            case "mId" => obj.mId = reader.readValue < Int64 >()[0m
+    [36m| [0m[34m|[0m /* 9.44 */            case "title" => obj.title = reader.readValue < String >()[0m
+    [36m| [0m[34m|[0m /* 9.45 */            case "context" => obj.context = reader.readValue < String >()[0m
+    [36m| [0m[34m|[0m /* 9.46 */            case "stime" => obj.stime = DateTime.parse(reader.readValue < String >())[0m
+    [36m| [0m[34m|[0m /* 9.47 */            case "etime" => obj.etime = DateTime.parse(reader.readValue < String >())[0m
+    [36m| [0m[34m|[0m /* 9.48 */            [0m
+    [36m| [0m[34m|[0m /* 9.49 */            case _ => return true[0m
+    [36m| [0m[34m|[0m /* 9.50 */        }[0m
+    [36m| [0m[34m|[0m /* 9.51 */        return false[0m
+    [36m| [0m[34m|[0m /* 9.52 */    }[0m
+    [36m| [0m[34m|[0m /* 9.53 */    [0m
+    [36m| [0m[34m|[0m /* 9.54 */    public static func fromJson(reader: JsonReader): MenuInsertReq {[0m
+    [36m| [0m[34m|[0m /* 9.55 */        var obj = MenuInsertReq()[0m
+    [36m| [0m[34m|[0m /* 9.56 */        while(let Some(v) <- reader.peek()) {[0m
+    [36m| [0m[34m|[0m /* 9.57 */            match(v) {[0m
+    [36m| [0m[34m|[0m /* 9.58 */                case BeginObject =>[0m
+    [36m| [0m[34m|[0m /* 9.59 */                reader.startObject()[0m
+    [36m| [0m[34m|[0m /* 9.60 */                while(reader.peek() != EndObject) {[0m
+    [36m| [0m[34m|[0m /* 9.61 */                    let name = reader.readName()[0m
+    [36m| [0m[34m|[0m /* 9.62 */                    let skip = read(obj, name, reader)[0m
+    [36m| [0m[34m|[0m /* 9.63 */                    if(skip) { reader.skip() }[0m
+    [36m| [0m[34m|[0m /* 9.64 */                }[0m
+    [36m| [0m[34m|[0m /* 9.65 */                reader.endObject()[0m
+    [36m| [0m[34m|[0m /* 9.66 */                break[0m
+    [36m| [0m[34m|[0m /* 9.67 */                case _ => throw Exception("the token is not start object")[0m
+    [36m| [0m[34m|[0m /* 9.68 */            }[0m
+    [36m| [0m[34m|[0m /* 9.69 */        }[0m
+    [36m| [0m[34m|[0m /* 9.70 */        obj[0m
+    [36m| [0m[34m|[0m /* 9.71 */    }[0m
+    [36m| [0m[34m|[0m /* 9.72 */    [0m
+    [36m| [0m[34m|[0m /* 9.73 */    [0m
+    [36m| [0m[34m|[0m /* 9.74 */    protected static func schemaInfos(): Array < JsonSchemaInfo > {[0m
+    [36m| [0m[34m|[0m /* 9.75 */        let arr = ArrayList < JsonSchemaInfo >([JsonSchemaInfo("mId", schemaType: JsonTool.getSchema < Int64 >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 9.76 */        JsonSchemaInfo("title", schemaType: JsonTool.getSchema < String >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 9.77 */        JsonSchemaInfo("context", schemaType: JsonTool.getSchema < String >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 9.78 */        JsonSchemaInfo("stime", schemaType: JsonTool.getSchema < DateTime >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 9.79 */        JsonSchemaInfo("etime", schemaType: JsonTool.getSchema < DateTime >(), description: "", required: true)])[0m
+    [36m| [0m[34m|[0m /* 9.80 */        [0m
+    [36m| [0m[34m|[0m /* 9.81 */        arr.toArray()[0m
+    [36m| [0m[34m|[0m /* 9.82 */    }[0m
+    [36m| [0m[34m|[0m /* 9.83 */    [0m
+    [36m| [0m[34m|[0m /* 9.84 */    public static func toSchema(): JsonSchemaType {[0m
+    [36m| [0m[34m|[0m /* 9.85 */        JsonSchemaType.Obj(MenuInsertReq.schemaInfos())[0m
+    [36m| [0m[34m|[0m /* 9.86 */    }[0m
+    [36m| [0m[34m|[0m /* 9.87 */    [0m
+    [36m| [0m[34m|[0m /* 9.88 */    public static func toJsonSchema(): JsonSerializable {[0m
+    [36m| [0m[34m|[0m /* 9.89 */        toSchema().toJson(description: "")[0m
+    [36m| [0m[34m|[0m /* 9.90 */    }[0m
+    [36m| [0m[34m|[0m /* 9.91 */    [0m
+    [36m| [0m[34m|[0m /* 9.92 */    [0m
+    [36m| [0m[34m|[0m /* 9.93 */}[0m
+    [36m| [0m[34m|[0m /* 9.94 */[0m
+    [36m| [0m[34m|[0m /* 9.95 */extend MenuInsertReq <: ToString {[0m
+    [36m| [0m[34m|[0m /* 9.96 */    public func toString(): String {[0m
+    [36m| [0m[34m|[0m /* 9.97 */        let sb = StringBuilder()[0m
+    [36m| [0m[34m|[0m /* 9.98 */        sb.append("MenuInsertReq")[0m
+    [36m| [0m[34m|[0m /* 9.99 */        sb.append("(")[0m
+    [36m| [0m[34m|[0m /* 9.100 */        sb.append("mId")[0m
+    [36m| [0m[34m|[0m /* 9.101 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 9.102 */        sb.append(this.mId.toString())[0m
+    [36m| [0m[34m|[0m /* 9.103 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 9.104 */        sb.append("title")[0m
+    [36m| [0m[34m|[0m /* 9.105 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 9.106 */        sb.append(this.title.toString())[0m
+    [36m| [0m[34m|[0m /* 9.107 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 9.108 */        sb.append("context")[0m
+    [36m| [0m[34m|[0m /* 9.109 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 9.110 */        sb.append(this.context.toString())[0m
+    [36m| [0m[34m|[0m /* 9.111 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 9.112 */        sb.append("stime")[0m
+    [36m| [0m[34m|[0m /* 9.113 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 9.114 */        sb.append(this.stime.toString())[0m
+    [36m| [0m[34m|[0m /* 9.115 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 9.116 */        sb.append("etime")[0m
+    [36m| [0m[34m|[0m /* 9.117 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 9.118 */        sb.append(this.etime.toString())[0m
+    [36m| [0m[34m|[0m /* 9.119 */        sb.append(")")[0m
+    [36m| [0m[34m|[0m /* 9.120 */        return sb.toString()[0m
+    [36m| [0m[34m|[0m /* 9.121 */    }[0m
+    [36m| [0m[34m|[0m /* 9.122 */}[0m
+    [36m| [0m[34m|[0m /* 9.123 */extend MenuInsertReq {[0m
+    [36m| [0m[34m|[0m /* 9.124 */    private func derivingChecks_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 9.125 */        let _: ToString = mId[0m
+    [36m| [0m[34m|[0m /* 9.126 */        let _: ToString = title[0m
+    [36m| [0m[34m|[0m /* 9.127 */        let _: ToString = context[0m
+    [36m| [0m[34m|[0m /* 9.128 */        let _: ToString = stime[0m
+    [36m| [0m[34m|[0m /* 9.129 */        let _: ToString = etime[0m
+    [36m| [0m[34m|[0m /* 9.130 */        derivingChecks2_()[0m
+    [36m| [0m[34m|[0m /* 9.131 */    }[0m
+    [36m| [0m[34m|[0m /* 9.132 */    private func derivingChecks2_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 9.133 */        derivingChecks_()[0m
+    [36m| [0m[34m|[0m /* 9.134 */    }[0m
+    [36m| [0m[34m|[0m /* 9.135 */}[0m
+    [36m| [0m[34m|[0m /* 9.136 */[0m
+    [36m| [0m[34m|[0m /* 9.137 */extend MenuInsertReq <: JoyValidatable {[0m
+    [36m| [0m[34m|[0m /* 9.138 */    [0m
+    [36m| [0m[34m|[0m /* 9.139 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m[34m|[0m /* 9.140 */        mId.validate({ => if(field.isEmpty()) { "mId" } else { "${field}.mId" } }(), false, RangeConstraint("1", "100", "系统ID必须大于0"))[0m
+    [36m| [0m[34m|[0m /* 9.141 */        [0m
+    [36m| [0m[34m|[0m /* 9.142 */        [0m
+    [36m| [0m[34m|[0m /* 9.143 */        [0m
+    [36m| [0m[34m|[0m /* 9.144 */        [0m
+    [36m| [0m[34m|[0m /* 9.145 */    }[0m
+    [36m| [0m[34m|[0m /* 9.146 */    [0m
+    [36m| [0m[34m|[0m /* 9.147 */}[0m
+    [36m| [0m[34m|[0m /* 9.148 */[0m
+    [36m| [0m[34m|[0m[34m_[0m[34m__________^[0m
+    [36m| [0m
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\resp\memo.cj:9:1:
+   [36m| [0m
+[36m9[0m  [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m10[0m [36m| [0m[34m|[0m @Json[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m21[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+[33mwarning[0m: unused variable:'constraints'
+    [36m| [0m
+    [36m| [0m/* 9.139 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                                      [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\resp\memo.cj:9:1:
+   [36m| [0m
+[36m9[0m  [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m10[0m [36m| [0m[34m|[0m @Json[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m21[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+3 warnings generated, 3 warnings printed.

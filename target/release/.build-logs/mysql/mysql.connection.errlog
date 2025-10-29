@@ -1,0 +1,25 @@
+[33mwarning[0m: unused import 'std.convert.*'
+  [36m==>[0m E:\cjproject\CJnote\mysql-driver\src\connection\result_set_binary.cj:20:1:
+   [36m| [0m
+[36m20[0m [36m| [0mimport std.convert.*[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.collection.*'
+  [36m==>[0m E:\cjproject\CJnote\mysql-driver\src\connection\result_set_binary.cj:21:1:
+   [36m| [0m
+[36m21[0m [36m| [0mimport std.collection.*[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.collection.*'
+  [36m==>[0m E:\cjproject\CJnote\mysql-driver\src\connection\result_set_text.cj:21:1:
+   [36m| [0m
+[36m21[0m [36m| [0mimport std.collection.*[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+3 warnings generated, 3 warnings printed.

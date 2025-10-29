@@ -1,0 +1,150 @@
+{
+  "packageInformation": {
+    "litem": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-2427853757989012361",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "litem.auto.mapping": {
+      "rootPackageName": "litem",
+      "fileNameHash": "3612610113746485384",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.extension": {
+      "rootPackageName": "litem",
+      "fileNameHash": "4687261305353828304",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.executor": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-2648262922186040009",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.database": {
+      "rootPackageName": "litem",
+      "fileNameHash": "7122431880447229873",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.entity.dialect": {
+      "rootPackageName": "litem",
+      "fileNameHash": "2787959095570874063",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "litem.plugin": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-7492319913126441583",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.auto": {
+      "rootPackageName": "litem",
+      "fileNameHash": "7453357782997408611",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "litem.entity.column": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-6985289564557754116",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.handler": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-3456619346285711252",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.macros": {
+      "rootPackageName": "litem",
+      "fileNameHash": "6758438023390315190",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "litem.log": {
+      "rootPackageName": "litem",
+      "fileNameHash": "2066505507214938168",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.entity.ops": {
+      "rootPackageName": "litem",
+      "fileNameHash": "7831738819124861541",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.entity": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-9036032716602275264",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "litem.entity.expr": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-69589313523604675",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.bootstrap": {
+      "rootPackageName": "litem",
+      "fileNameHash": "6527063880888503507",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.entity.dialect.mysql": {
+      "rootPackageName": "litem",
+      "fileNameHash": "5615685902858772660",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "litem.macros.generate": {
+      "rootPackageName": "litem",
+      "fileNameHash": "-739370868400885000",
+      "timeStamp": 1761400703,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "883707646930480787",
+  "rootPackageName": "litem"
+}

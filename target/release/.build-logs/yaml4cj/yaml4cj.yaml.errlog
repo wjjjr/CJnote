@@ -1,0 +1,84 @@
+[33mwarning[0m: unused import 'std.math.*'
+ [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\yaml_import.cj:5:1:
+  [36m| [0m
+[36m5[0m [36m| [0minternal import std.math.*[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'longTagPrefix'
+ [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\resolve.cj:8:5:
+  [36m| [0m
+[36m8[0m [36m| [0mlet longTagPrefix = "tag:yaml.org,2002:"[0m
+  [36m| [0m    [33m^^^^^^^^^^^^^ unused variable[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'YAML_SEQ_TAG'
+  [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\helper.cj:15:5:
+   [36m| [0m
+[36m15[0m [36m| [0mlet YAML_SEQ_TAG = "tag:yaml.org,2002:seq" // The tag !!seq is used to denote sequences.[0m
+   [36m| [0m    [33m^^^^^^^^^^^^ unused variable[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'YAML_MAP_TAG'
+  [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\helper.cj:16:5:
+   [36m| [0m
+[36m16[0m [36m| [0mlet YAML_MAP_TAG = "tag:yaml.org,2002:map" // The tag !!map is used to denote mapping.[0m
+   [36m| [0m    [33m^^^^^^^^^^^^ unused variable[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'initialStringSize'
+  [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\privateh.cj:18:5:
+   [36m| [0m
+[36m18[0m [36m| [0mlet initialStringSize = 16[0m
+   [36m| [0m    [33m^^^^^^^^^^^^^^^^^ unused variable[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused function:'startsWith'
+   [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\util.cj:162:1:
+    [36m| [0m
+[36m162[0m [36m| [0m  func startsWith(s: Array<UInt8>, prefix: Array<UInt8>): Bool {[0m
+    [36m| [0m [33m_[0m[33m^[0m
+[36m163[0m [36m| [0m[33m|[0m     if (s.size < prefix.size) {[0m
+    [36m| [0m[33m|[0m ...[0m
+[36m167[0m [36m| [0m[33m|[0m }[0m
+    [36m| [0m[33m|[0m[33m_[0m[33m^ unused function[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'aliasRatioRange'
+   [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\decode.cj:174:5:
+    [36m| [0m
+[36m174[0m [36m| [0mlet aliasRatioRange = Float64(aliasRatioRangeHigh - aliasRatioRangeLow)[0m
+    [36m| [0m    [33m^^^^^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused function:'isAscii'
+   [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\privateh.cj:200:1:
+    [36m| [0m
+[36m200[0m [36m| [0m  func isAscii(b: ArrayList<UInt8>, i: Int64): Bool {[0m
+    [36m| [0m [33m_[0m[33m^[0m
+[36m201[0m [36m| [0m[33m|[0m     b[i] <= 0x7F[0m
+[36m202[0m [36m| [0m[33m|[0m }[0m
+    [36m| [0m[33m|[0m[33m_[0m[33m^ unused function[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused function:'isBreakz'
+   [36m==>[0m E:\cjproject\CJnote\yaml4cj\src\yaml\privateh.cj:429:1:
+    [36m| [0m
+[36m429[0m [36m| [0m  func isBreakz(b: Array<UInt8>, i: Int64): Bool {[0m
+    [36m| [0m [33m_[0m[33m^[0m
+[36m430[0m [36m| [0m[33m|[0m     let bi = b[i][0m
+    [36m| [0m[33m|[0m ...[0m
+[36m435[0m [36m| [0m[33m|[0m }[0m
+    [36m| [0m[33m|[0m[33m_[0m[33m^ unused function[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+9 warnings generated, 9 warnings printed.

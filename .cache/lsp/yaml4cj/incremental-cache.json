@@ -1,0 +1,22 @@
+{
+  "packageInformation": {
+    "yaml4cj": {
+      "rootPackageName": "yaml4cj",
+      "fileNameHash": "4209109509141757123",
+      "timeStamp": 1761375557,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "yaml4cj.yaml": {
+      "rootPackageName": "yaml4cj",
+      "fileNameHash": "-2283567142898546897",
+      "timeStamp": 1761375557,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "3771909715742181185",
+  "rootPackageName": "yaml4cj"
+}

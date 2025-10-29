@@ -1,15 +1,38 @@
 [package]
   cjc-version = "1.0.3"
   name = "CJnote"
+  compile-option = "-lcrypt32"
   description = "nothing here"
   version = "1.0.0"
-  target-dir = ""
-  src-dir = ""
+  target-dir = "E:\\cjproject\\CJnote\\target"
+  src-dir = "./src"
   output-type = "executable"
-  compile-option = ""
-  override-compile-option = ""
-  link-option = ""
-  package-configuration = {}
+
+
+  
+
+[target]
+  [target.x86_64-w64-mingw32]
+    [target.x86_64-w64-mingw32.bin-dependencies]
+      path-option = [ "E:\\CJ\\cangjiestdx\\" ]
+  [target.x86_64-unknown-linux-gnu]
+    [target.x86_64-unknown-linux-gnu.bin-dependencies]
+      path-option = [ "E:\\CJ\\cangjiestdx\\" ]
+  [target.x86_64-apple-darwin]
+    [target.x86_64-apple-darwin.bin-dependencies]
+      path-option = [ "E:\\CJ\\cangjiestdx\\" ]
+  [target.aarch64-unknown-linux-gnu]
+    [target.aarch64-unknown-linux-gnu.bin-dependencies]
+      path-option = [ "E:\\CJ\\cangjiestdx\\" ]
+  [target.aarch64-apple-darwin]
+    [target.aarch64-apple-darwin.bin-dependencies]
+      path-option = [ "E:\\CJ\\cangjiestdx\\" ]
 
 [dependencies]
-  cjoy = { git = "https://gitcode.com/Cangjie-SIG/cjoy.git", branch = "main" }
+  cjoy = { path = "./cjoy" }
+  jwt4cj = { path = "./jwt4cj"}
+  yaml4cj = { path = "./yaml4cj"}
+  cjjson = { path = "./cangjieJSON"}
+  mysql = {path = "./mysql-driver"}
+  litem = { path = "./litem"}
+

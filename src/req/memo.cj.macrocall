@@ -1,0 +1,169 @@
+
+package CJnote.req
+import CJnote.entity.*
+import cjjson.macros.*
+import cjjson.*
+import cjoy.json.*
+import cjoy.validation.*
+import std.deriving.*
+import cjoy.bind.*
+
+public const TimeFormatPattern = "yyyy-MM-dd HH:mm:ss"
+/* ===== Emitted by MacroCall @JsonAdapter in memo.cj:12:1 ===== */
+/* 12.1 */public class MemoReq <: IJsonAdapter < MemoReq > {
+/* 12.2 */    public var id: Int64 = 0
+/* 12.3 */    public var title: String = ""
+/* 12.4 */    public var content: String = ""
+/* 12.5 */    public var createdAt: String = ""
+/* 12.6 */    public var etime: String = ""
+/* 12.7 */    public var status: Int8 = 0
+/* 12.8 */    public var isImportant: Int8 = 0
+/* 12.9 */    public var isCompleted: Int8 = 0
+/* 12.10 */    public init() {
+/* 12.11 */    }
+/* 12.12 */    public init(memoEntity: MemoEntity) {
+/* 12.13 */        this.id = memoEntity.mid
+/* 12.14 */        this.content = memoEntity.context
+/* 12.15 */        this.createdAt = memoEntity.stime.format(TimeFormatPattern)
+/* 12.16 */        this.etime = memoEntity.etime.format(TimeFormatPattern)
+/* 12.17 */        this.title = memoEntity.title
+/* 12.18 */        this.status = memoEntity.status
+/* 12.19 */        if(memoEntity.status == 1) {
+/* 12.20 */            this.isImportant = 1
+/* 12.21 */        }
+/* 12.22 */        if(memoEntity.status == 2) {
+/* 12.23 */            this.isCompleted = 1
+/* 12.24 */        }
+/* 12.25 */    }
+/* 12.26 */    static public func fromJson(str: String): MemoReq {
+/* 12.27 */        return fromJsonValue(JsonValue.fromStr(str))
+/* 12.28 */    }
+/* 12.29 */    public func toJson(): String {
+/* 12.30 */        return toJsonValue().toString()
+/* 12.31 */    }
+/* 12.32 */    static public func fromJsonValue(jsonValue: JsonValue): MemoReq {
+/* 12.33 */        let jsonObj = match(jsonValue) {
+/* 12.34 */            case obj: JsonObject => obj
+/* 12.35 */            case _ => throw JsonTypeMismatch("JSON Object", jsonValue.kind().toString())
+/* 12.36 */        }
+/* 12.37 */        let obj = MemoReq()
+/* 12.38 */        try {
+/* 12.39 */            obj.id = Int64.fromJsonValue(jsonObj.get("id").getOrThrow({ => JsonFieldNotExist("MemoReq", "id") }))
+/* 12.40 */        } catch(e: JsonTypeMismatch) {
+/* 12.41 */            throw JsonTypeMismatch("MemoReq", "id", e.message)
+/* 12.42 */        }
+/* 12.43 */        try {
+/* 12.44 */            obj.title = String.fromJsonValue(jsonObj.get("title").getOrThrow({ => JsonFieldNotExist("MemoReq", "title") }))
+/* 12.45 */        } catch(e: JsonTypeMismatch) {
+/* 12.46 */            throw JsonTypeMismatch("MemoReq", "title", e.message)
+/* 12.47 */        }
+/* 12.48 */        try {
+/* 12.49 */            obj.content = String.fromJsonValue(jsonObj.get("content").getOrThrow({ => JsonFieldNotExist("MemoReq", "content") }))
+/* 12.50 */        } catch(e: JsonTypeMismatch) {
+/* 12.51 */            throw JsonTypeMismatch("MemoReq", "content", e.message)
+/* 12.52 */        }
+/* 12.53 */        try {
+/* 12.54 */            obj.createdAt = String.fromJsonValue(jsonObj.get("createdAt").getOrThrow({ => JsonFieldNotExist("MemoReq", "createdAt") }))
+/* 12.55 */        } catch(e: JsonTypeMismatch) {
+/* 12.56 */            throw JsonTypeMismatch("MemoReq", "createdAt", e.message)
+/* 12.57 */        }
+/* 12.58 */        try {
+/* 12.59 */            obj.etime = String.fromJsonValue(jsonObj.get("etime").getOrThrow({ => JsonFieldNotExist("MemoReq", "etime") }))
+/* 12.60 */        } catch(e: JsonTypeMismatch) {
+/* 12.61 */            throw JsonTypeMismatch("MemoReq", "etime", e.message)
+/* 12.62 */        }
+/* 12.63 */        try {
+/* 12.64 */            obj.status = Int8.fromJsonValue(jsonObj.get("status").getOrThrow({ => JsonFieldNotExist("MemoReq", "status") }))
+/* 12.65 */        } catch(e: JsonTypeMismatch) {
+/* 12.66 */            throw JsonTypeMismatch("MemoReq", "status", e.message)
+/* 12.67 */        }
+/* 12.68 */        try {
+/* 12.69 */            obj.isImportant = Int8.fromJsonValue(jsonObj.get("isImportant").getOrThrow({ => JsonFieldNotExist("MemoReq", "isImportant") }))
+/* 12.70 */        } catch(e: JsonTypeMismatch) {
+/* 12.71 */            throw JsonTypeMismatch("MemoReq", "isImportant", e.message)
+/* 12.72 */        }
+/* 12.73 */        try {
+/* 12.74 */            obj.isCompleted = Int8.fromJsonValue(jsonObj.get("isCompleted").getOrThrow({ => JsonFieldNotExist("MemoReq", "isCompleted") }))
+/* 12.75 */        } catch(e: JsonTypeMismatch) {
+/* 12.76 */            throw JsonTypeMismatch("MemoReq", "isCompleted", e.message)
+/* 12.77 */        }
+/* 12.78 */        return obj
+/* 12.79 */    }
+/* 12.80 */    public func toJsonValue(): JsonValue {
+/* 12.81 */        let jsonObj = JsonObject()
+/* 12.82 */        jsonObj.put("id", id.toJsonValue())
+/* 12.83 */        jsonObj.put("title", title.toJsonValue())
+/* 12.84 */        jsonObj.put("content", content.toJsonValue())
+/* 12.85 */        jsonObj.put("createdAt", createdAt.toJsonValue())
+/* 12.86 */        jsonObj.put("etime", etime.toJsonValue())
+/* 12.87 */        jsonObj.put("status", status.toJsonValue())
+/* 12.88 */        jsonObj.put("isImportant", isImportant.toJsonValue())
+/* 12.89 */        jsonObj.put("isCompleted", isCompleted.toJsonValue())
+/* 12.90 */        return jsonObj
+/* 12.91 */    }
+/* 12.92 */}
+/* 12.93 */
+/* ===== End of the Emit ===== */
+/* ===== Emitted by MacroCall @JsonAdapter in memo.cj:42:1 ===== */
+/* 42.1 */public class memoID <: IJsonAdapter < memoID > {
+/* 42.2 */    public var id: Int64 = 0
+/* 42.3 */    public init() {
+/* 42.4 */    }
+/* 42.5 */    public init(id: Int64) {
+/* 42.6 */        this.id = id
+/* 42.7 */    }
+/* 42.8 */    static public func fromJson(str: String): memoID {
+/* 42.9 */        return fromJsonValue(JsonValue.fromStr(str))
+/* 42.10 */    }
+/* 42.11 */    public func toJson(): String {
+/* 42.12 */        return toJsonValue().toString()
+/* 42.13 */    }
+/* 42.14 */    static public func fromJsonValue(jsonValue: JsonValue): memoID {
+/* 42.15 */        let jsonObj = match(jsonValue) {
+/* 42.16 */            case obj: JsonObject => obj
+/* 42.17 */            case _ => throw JsonTypeMismatch("JSON Object", jsonValue.kind().toString())
+/* 42.18 */        }
+/* 42.19 */        let obj = memoID()
+/* 42.20 */        try {
+/* 42.21 */            obj.id = Int64.fromJsonValue(jsonObj.get("id").getOrThrow({ => JsonFieldNotExist("memoID", "id") }))
+/* 42.22 */        } catch(e: JsonTypeMismatch) {
+/* 42.23 */            throw JsonTypeMismatch("memoID", "id", e.message)
+/* 42.24 */        }
+/* 42.25 */        return obj
+/* 42.26 */    }
+/* 42.27 */    public func toJsonValue(): JsonValue {
+/* 42.28 */        let jsonObj = JsonObject()
+/* 42.29 */        jsonObj.put("id", id.toJsonValue())
+/* 42.30 */        return jsonObj
+/* 42.31 */    }
+/* 42.32 */}
+/* 42.33 */
+/* ===== End of the Emit ===== */
+
+@Valid
+@Bind
+@Derive[ToString]
+public class MemoIdReq {
+    @NumberRange[min = 1,msg="id 必须大于 0"]
+    public var id: Int64 = 0
+}
+
+@Valid
+@Json
+@Derive[ToString]
+public class AddMemoIdReq {
+    public var title: String = ""
+    public var context: String = ""
+}
+
+
+@Valid
+@Json
+@Derive[ToString]
+public class UpdateMemoIdReq {
+    @NumberRange[min = 1,msg="id 必须大于 0"]
+    public var id: UInt64 = 0
+    public var title: String = ""
+    public var context: String = ""
+    public var status: UInt64 = 0
+}

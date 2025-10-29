@@ -1,0 +1,342 @@
+{
+  "packageInformation": {
+    "cjoy.context": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-5798173877646752416",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.bind": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-5108470023547193276",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.httpx": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-5040847584247029688",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "2505764159747531019",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.log": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "8397397433337729218",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.eventbus": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "4837963489219913703",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.config": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "8588698191868380757",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.jsonrpc": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-8587356648938137933",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.fs": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-94103953278061231",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.jwt": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-8065543834572575783",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.ioc": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "5509919642836195916",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.mcp": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-8222785836107721491",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "8084576864528769150",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.middleware": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "6564112485147634961",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.framework": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-5286888007537442461",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.json": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "262981371610415307",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.log.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-1838543720416594441",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.jsonrpc.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-9128038286829110052",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.ioc.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "3012262535699851574",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.ioc.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-3873210139255848680",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.eventbus.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-1633150200196885514",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.bind.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-8202195032112365986",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.utils": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-3693005483448948100",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.schedule": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-5550866836606627806",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.bind.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "3413981336499577050",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.validation": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-6116593654263337882",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cjoy.eventbus.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "6231818116656138515",
+      "timeStamp": 1761045022,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.json.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-7525063361787977398",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.json.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-6594297678160725436",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.oauth2": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-1864137667327549013",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.session": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "2234505157728156847",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.multipart": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "9012069111239487283",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.validation.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "3803243179927188274",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.validation.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "7024269572382305943",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.log.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-7033153147657034238",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.utils.ast": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "2909199904738812509",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.schedule.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-1390210618450847006",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.schedule.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "9157451534794816060",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.mcp.api": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "2369151849613982237",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.mcp.macros": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-6365715029262698485",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.mcp.client": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "-3315936640042500725",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cjoy.mcp.server": {
+      "rootPackageName": "cjoy",
+      "fileNameHash": "5543935443411980627",
+      "timeStamp": 1761045023,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "-4197153455096175264",
+  "rootPackageName": "cjoy"
+}

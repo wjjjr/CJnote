@@ -1,0 +1,9 @@
+[33mwarning[0m: unused import 'mysql.cdbc.MySqlDriver'
+ [36m==>[0m E:\cjproject\CJnote\src\mysql\connection.cj:4:1:
+  [36m| [0m
+[36m4[0m [36m| [0mimport mysql.cdbc.MySqlDriver[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+1 warning generated, 1 warning printed.

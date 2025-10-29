@@ -1,0 +1,4856 @@
+{
+  "resolves": [
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\models",
+      "fullName": "CJnote.models",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src",
+      "fullName": "cj2sql",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\base",
+      "fullName": "cj2sql.base",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.ast"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\util",
+      "fullName": "cj2sql.util",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjjson",
+      "modulePath": "E:\\cjproject\\CJnote\\cangjieJSON",
+      "packagePath": "E:\\cjproject\\CJnote\\cangjieJSON\\src\\macros",
+      "fullName": "cjjson.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "--debug-macro",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\context",
+      "fullName": "cjoy.context",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.collection.concurrent"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\log\\macros",
+      "fullName": "cjoy.log.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.ast"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\validation\\api",
+      "fullName": "cjoy.validation.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.regex",
+        "std.time",
+        "std.unicode"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src",
+      "fullName": "litem",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\macros\\generate",
+      "fullName": "litem.macros.generate",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\plugin",
+      "fullName": "litem.plugin",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "mysql",
+      "modulePath": "E:\\cjproject\\CJnote\\mysql-driver",
+      "packagePath": "E:\\cjproject\\CJnote\\mysql-driver\\src",
+      "fullName": "mysql",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-O2 -Woff deprecated --disable-reflection",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "mysql",
+      "modulePath": "E:\\cjproject\\CJnote\\mysql-driver",
+      "packagePath": "E:\\cjproject\\CJnote\\mysql-driver\\src\\protocol",
+      "fullName": "mysql.protocol",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-O2 -Woff deprecated --disable-reflection",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.binary",
+        "std.convert",
+        "std.io",
+        "std.math.numeric",
+        "std.time",
+        "std.unicode"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "protected"
+    },
+    {
+      "rootPackageName": "yaml4cj",
+      "modulePath": "E:\\cjproject\\CJnote\\yaml4cj",
+      "packagePath": "E:\\cjproject\\CJnote\\yaml4cj\\src",
+      "fullName": "yaml4cj",
+      "isMacroPackage": false,
+      "output-type": "dynamic",
+      "compile-option": "-O2",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\macros\\parser",
+      "fullName": "cj2sql.macros.parser",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.base",
+        "stdx.log"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection",
+        "std.deriving",
+        "std.reflect"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\meta",
+      "fullName": "cj2sql.sql.meta",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.util"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.reflect"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjjson",
+      "modulePath": "E:\\cjproject\\CJnote\\cangjieJSON",
+      "packagePath": "E:\\cjproject\\CJnote\\cangjieJSON\\src",
+      "fullName": "cjjson",
+      "isMacroPackage": false,
+      "output-type": "dynamic",
+      "compile-option": "--debug-macro",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "stdx.encoding.json"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\json\\api",
+      "fullName": "cjoy.json.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.io",
+        "std.math.numeric",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\log\\api",
+      "fullName": "cjoy.log.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "stdx.log",
+        "stdx.logger"
+      ],
+      "std-requires": [
+        "std.env"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\utils",
+      "fullName": "cjoy.utils",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "stdx.crypto.crypto",
+        "stdx.encoding.base64"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.convert",
+        "std.random",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "jwt4cj",
+      "modulePath": "E:\\cjproject\\CJnote\\jwt4cj",
+      "packagePath": "E:\\cjproject\\CJnote\\jwt4cj\\src",
+      "fullName": "jwt4cj",
+      "isMacroPackage": false,
+      "output-type": "dynamic",
+      "compile-option": "-O2 -lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "stdx.crypto.digest",
+        "stdx.crypto.keys",
+        "stdx.encoding.base64",
+        "stdx.encoding.json"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.crypto.digest",
+        "std.fs",
+        "std.math",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\macros",
+      "fullName": "litem.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.util",
+        "litem.macros.generate"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "mysql",
+      "modulePath": "E:\\cjproject\\CJnote\\mysql-driver",
+      "packagePath": "E:\\cjproject\\CJnote\\mysql-driver\\src\\connection",
+      "fullName": "mysql.connection",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-O2 -Woff deprecated --disable-reflection",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "mysql.protocol",
+        "stdx.crypto.digest",
+        "stdx.crypto.keys",
+        "stdx.crypto.x509",
+        "stdx.encoding.hex",
+        "stdx.net.tls"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.fs",
+        "std.io",
+        "std.math.numeric",
+        "std.net",
+        "std.sync",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "protected"
+    },
+    {
+      "rootPackageName": "yaml4cj",
+      "modulePath": "E:\\cjproject\\CJnote\\yaml4cj",
+      "packagePath": "E:\\cjproject\\CJnote\\yaml4cj\\src\\yaml",
+      "fullName": "yaml4cj.yaml",
+      "isMacroPackage": false,
+      "output-type": "dynamic",
+      "compile-option": "-O2",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "stdx.encoding.base64",
+        "stdx.encoding.json"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.math",
+        "std.regex",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\macros",
+      "fullName": "cj2sql.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.base",
+        "cj2sql.macros.parser"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\expr",
+      "fullName": "cj2sql.sql.expr",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.meta"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\log",
+      "fullName": "cjoy.log",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.log.api",
+        "cjoy.log.macros"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\session",
+      "fullName": "cjoy.session",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.fs",
+        "std.io",
+        "std.sync",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\utils\\ast",
+      "fullName": "cjoy.utils.ast",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection",
+        "std.convert"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "mysql",
+      "modulePath": "E:\\cjproject\\CJnote\\mysql-driver",
+      "packagePath": "E:\\cjproject\\CJnote\\mysql-driver\\src\\cdbc",
+      "fullName": "mysql.cdbc",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-O2 -Woff deprecated --disable-reflection",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "mysql.connection",
+        "mysql.protocol",
+        "stdx.encoding.url"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.database.sql",
+        "std.io",
+        "std.math.numeric",
+        "std.sync",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "mysql",
+      "modulePath": "E:\\cjproject\\CJnote\\mysql-driver",
+      "packagePath": "E:\\cjproject\\CJnote\\mysql-driver\\src\\xa",
+      "fullName": "mysql.xa",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-O2 -Woff deprecated --disable-reflection",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "mysql.connection",
+        "mysql.protocol"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\statement",
+      "fullName": "cj2sql.sql.statement",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.expr",
+        "cj2sql.sql.meta"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.reflect"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\bind\\api",
+      "fullName": "cjoy.bind.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.log",
+        "stdx.encoding.url",
+        "stdx.net.http"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\bind\\macros",
+      "fullName": "cjoy.bind.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "cjoy.utils.ast"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\eventbus\\api",
+      "fullName": "cjoy.eventbus.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.context",
+        "cjoy.log"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.sort",
+        "std.sync"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\eventbus\\macros",
+      "fullName": "cjoy.eventbus.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "cjoy.utils.ast"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\ioc\\api",
+      "fullName": "cjoy.ioc.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.context",
+        "cjoy.log"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.env",
+        "std.sort",
+        "std.sync"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\ioc\\macros",
+      "fullName": "cjoy.ioc.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "cjoy.utils.ast"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\json\\macros",
+      "fullName": "cjoy.json.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "cjoy.utils.ast",
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection",
+        "std.io"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\mcp\\macros",
+      "fullName": "cjoy.mcp.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "cjoy.utils.ast"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\schedule\\macros",
+      "fullName": "cjoy.schedule.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "cjoy.utils.ast"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\validation\\macros",
+      "fullName": "cjoy.validation.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.utils",
+        "cjoy.utils.ast"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\entity\\expr",
+      "fullName": "litem.entity.expr",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.expr"
+      ],
+      "std-requires": [
+        "std.deriving"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\dialect",
+      "fullName": "cj2sql.sql.dialect",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\dml",
+      "fullName": "cj2sql.sql.dml",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.expr",
+        "cj2sql.sql.meta",
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\bind",
+      "fullName": "cjoy.bind",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.bind.api",
+        "cjoy.bind.macros",
+        "stdx.net.http"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\eventbus",
+      "fullName": "cjoy.eventbus",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.eventbus.api",
+        "cjoy.eventbus.macros"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\framework",
+      "fullName": "cjoy.framework",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.bind.api",
+        "cjoy.context",
+        "cjoy.ioc.api",
+        "cjoy.log",
+        "stdx.crypto.x509",
+        "stdx.encoding.base64",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.net.http",
+        "stdx.net.tls"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.fs",
+        "std.io",
+        "std.net",
+        "std.regex",
+        "std.sort"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\json",
+      "fullName": "cjoy.json",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.json.api",
+        "cjoy.json.macros",
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.io",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\validation",
+      "fullName": "cjoy.validation",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.validation.api",
+        "cjoy.validation.macros"
+      ],
+      "std-requires": [
+        "std.convert"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\log",
+      "fullName": "litem.log",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.expr",
+        "cj2sql.sql.statement",
+        "stdx.log"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\resp",
+      "fullName": "CJnote.resp",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cjjson",
+        "cjjson.macros",
+        "cjoy.bind",
+        "cjoy.json",
+        "cjoy.validation"
+      ],
+      "std-requires": [
+        "std.deriving",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql",
+      "fullName": "cj2sql.sql",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dml",
+        "cj2sql.sql.expr",
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\dialect\\mysql",
+      "fullName": "cj2sql.sql.dialect.mysql",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect",
+        "cj2sql.sql.expr",
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\dialect\\oracle",
+      "fullName": "cj2sql.sql.dialect.oracle",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect",
+        "cj2sql.sql.expr",
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\dialect\\postgresql",
+      "fullName": "cj2sql.sql.dialect.postgresql",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect",
+        "cj2sql.sql.expr",
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj2sql",
+      "modulePath": "E:\\cjproject\\CJnote\\cj2sql",
+      "packagePath": "E:\\cjproject\\CJnote\\cj2sql\\src\\sql\\dialect\\sqlserver",
+      "fullName": "cj2sql.sql.dialect.sqlserver",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect",
+        "cj2sql.sql.expr",
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src",
+      "fullName": "cjoy",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.context",
+        "cjoy.framework"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\config",
+      "fullName": "cjoy.config",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.bind",
+        "cjoy.context",
+        "cjoy.json",
+        "cjoy.log",
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.env",
+        "std.fs",
+        "std.io",
+        "std.sort",
+        "std.sync"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\jsonrpc\\api",
+      "fullName": "cjoy.jsonrpc.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.json",
+        "cjoy.log",
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.io"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\jwt",
+      "fullName": "cjoy.jwt",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.json",
+        "cjoy.utils",
+        "stdx.crypto.digest",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.crypto.digest",
+        "std.fs",
+        "std.io",
+        "std.math",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\multipart",
+      "fullName": "cjoy.multipart",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.framework",
+        "cjoy.utils",
+        "stdx.net.http"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.fs",
+        "std.io"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\oauth2",
+      "fullName": "cjoy.oauth2",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.framework",
+        "cjoy.json",
+        "cjoy.log",
+        "cjoy.utils",
+        "stdx.crypto.crypto",
+        "stdx.crypto.digest",
+        "stdx.encoding.url",
+        "stdx.net.http"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.crypto.digest",
+        "std.io",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\schedule\\api",
+      "fullName": "cjoy.schedule.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.context",
+        "cjoy.framework",
+        "cjoy.log"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.convert",
+        "std.deriving",
+        "std.regex",
+        "std.sync",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\entity\\column",
+      "fullName": "litem.entity.column",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dml",
+        "cj2sql.sql.expr",
+        "litem.entity.expr"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.math.numeric",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\entity\\dialect",
+      "fullName": "litem.entity.dialect",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect",
+        "cj2sql.sql.statement"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\middleware",
+      "fullName": "CJnote.middleware",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cjoy",
+        "cjoy.log"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\fs",
+      "fullName": "cjoy.fs",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.framework",
+        "cjoy.multipart",
+        "cjoy.utils",
+        "stdx.net.http"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.fs",
+        "std.io"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\httpx",
+      "fullName": "cjoy.httpx",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.context",
+        "cjoy.framework",
+        "cjoy.log",
+        "cjoy.multipart",
+        "stdx.encoding.base64",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.net.http",
+        "stdx.net.tls"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.convert",
+        "std.deriving",
+        "std.io",
+        "std.net"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\ioc",
+      "fullName": "cjoy.ioc",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.config",
+        "cjoy.ioc.api",
+        "cjoy.ioc.macros"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\jsonrpc",
+      "fullName": "cjoy.jsonrpc",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.jsonrpc.api"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\middleware",
+      "fullName": "cjoy.middleware",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy",
+        "cjoy.json",
+        "cjoy.jwt",
+        "cjoy.log",
+        "cjoy.session",
+        "cjoy.utils",
+        "cjoy.validation",
+        "stdx.crypto.digest",
+        "stdx.crypto.keys",
+        "stdx.encoding.base64",
+        "stdx.encoding.json.stream",
+        "stdx.log",
+        "stdx.net.http"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.crypto.digest",
+        "std.sync",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\schedule",
+      "fullName": "cjoy.schedule",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.schedule.api",
+        "cjoy.schedule.macros"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\database",
+      "fullName": "litem.database",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect",
+        "cj2sql.sql.statement",
+        "litem.entity.dialect",
+        "litem.log",
+        "litem.plugin",
+        "stdx.log"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\entity",
+      "fullName": "litem.entity",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql",
+        "cj2sql.sql.dml",
+        "cj2sql.sql.expr",
+        "cj2sql.sql.meta",
+        "cj2sql.sql.statement",
+        "litem.entity.column"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\entity\\dialect\\mysql",
+      "fullName": "litem.entity.dialect.mysql",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect.mysql",
+        "cj2sql.sql.expr",
+        "litem.entity.dialect",
+        "litem.entity.expr"
+      ],
+      "std-requires": [],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\entity\\ops",
+      "fullName": "litem.entity.ops",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dml",
+        "cj2sql.sql.expr",
+        "litem.entity.column"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\macros",
+      "fullName": "cjoy.macros",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy",
+        "cjoy.bind.api",
+        "cjoy.ioc",
+        "cjoy.utils",
+        "cjoy.utils.ast"
+      ],
+      "std-requires": [
+        "std.ast",
+        "std.collection",
+        "std.convert"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\mcp\\api",
+      "fullName": "cjoy.mcp.api",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.framework",
+        "cjoy.json",
+        "cjoy.jsonrpc",
+        "cjoy.multipart",
+        "stdx.encoding.base64",
+        "stdx.encoding.json.stream"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.fs",
+        "std.io"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\auto\\mapping",
+      "fullName": "litem.auto.mapping",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "litem.entity"
+      ],
+      "std-requires": [
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\handler",
+      "fullName": "litem.handler",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "litem.entity"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.database.sql",
+        "std.deriving",
+        "std.io",
+        "std.math.numeric",
+        "std.reflect",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": true,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\mcp\\client",
+      "fullName": "cjoy.mcp.client",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.httpx",
+        "cjoy.jsonrpc",
+        "cjoy.log",
+        "cjoy.mcp.api",
+        "cjoy.utils",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.io",
+        "std.sync",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\mcp\\server",
+      "fullName": "cjoy.mcp.server",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.framework",
+        "cjoy.json",
+        "cjoy.jsonrpc",
+        "cjoy.log",
+        "cjoy.mcp.api",
+        "cjoy.utils",
+        "stdx.encoding.base64",
+        "stdx.encoding.json.stream",
+        "stdx.net.http"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.collection.concurrent",
+        "std.io",
+        "std.sync",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\executor",
+      "fullName": "litem.executor",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.statement",
+        "litem.database",
+        "litem.handler",
+        "litem.log"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cjoy",
+      "modulePath": "E:\\cjproject\\CJnote\\cjoy",
+      "packagePath": "E:\\cjproject\\CJnote\\cjoy\\src\\mcp",
+      "fullName": "cjoy.mcp",
+      "isMacroPackage": true,
+      "output-type": "dynamic",
+      "compile-option": "-Woff unused --diagnostic-format=noColor --cfg \"ohos=false\"",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "-lcrypt32",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.bind.api",
+        "cjoy.json",
+        "cjoy.jsonrpc",
+        "cjoy.mcp.api",
+        "cjoy.mcp.macros",
+        "cjoy.mcp.server"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\extension",
+      "fullName": "litem.extension",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dml",
+        "cj2sql.sql.statement",
+        "litem.database",
+        "litem.entity",
+        "litem.executor",
+        "litem.handler"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\bootstrap",
+      "fullName": "litem.bootstrap",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj2sql.sql.dialect",
+        "cj2sql.sql.dml",
+        "cj2sql.sql.expr",
+        "cj2sql.sql.statement",
+        "litem.database",
+        "litem.entity",
+        "litem.entity.column",
+        "litem.extension"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\mysql",
+      "fullName": "CJnote.mysql",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "litem.bootstrap",
+        "mysql.cdbc"
+      ],
+      "std-requires": [
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "litem",
+      "modulePath": "E:\\cjproject\\CJnote\\litem",
+      "packagePath": "E:\\cjproject\\CJnote\\litem\\src\\auto",
+      "fullName": "litem.auto",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "litem.auto.mapping",
+        "litem.bootstrap",
+        "litem.database",
+        "litem.entity",
+        "litem.entity.column"
+      ],
+      "std-requires": [
+        "std.collection",
+        "std.database.sql"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\entity",
+      "fullName": "CJnote.entity",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cjoy.bind",
+        "cjoy.json",
+        "cjoy.validation",
+        "litem.auto",
+        "litem.macros"
+      ],
+      "std-requires": [
+        "std.deriving",
+        "std.time"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\dao",
+      "fullName": "CJnote.dao",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "CJnote.entity",
+        "litem.auto",
+        "litem.bootstrap"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\req",
+      "fullName": "CJnote.req",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "CJnote.entity",
+        "cjjson",
+        "cjjson.macros",
+        "cjoy.bind",
+        "cjoy.json",
+        "cjoy.validation"
+      ],
+      "std-requires": [
+        "std.deriving"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\services",
+      "fullName": "CJnote.services",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "CJnote.dao",
+        "CJnote.entity",
+        "CJnote.models",
+        "CJnote.req",
+        "CJnote.resp",
+        "cjoy",
+        "cjoy.json",
+        "litem.auto"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\controllers",
+      "fullName": "CJnote.controllers",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "CJnote.entity",
+        "CJnote.models",
+        "CJnote.req",
+        "CJnote.resp",
+        "CJnote.services",
+        "cjoy",
+        "cjoy.json"
+      ],
+      "std-requires": [
+        "std.collection"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src\\routes",
+      "fullName": "CJnote.routes",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "CJnote.controllers",
+        "CJnote.middleware",
+        "cjoy"
+      ],
+      "std-requires": [
+        "std.fs"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "CJnote",
+      "modulePath": ".",
+      "packagePath": "E:\\cjproject\\CJnote\\src",
+      "fullName": "CJnote",
+      "isMacroPackage": false,
+      "output-type": "executable",
+      "compile-option": "-lcrypt32",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "CJnote.routes",
+        "cjoy",
+        "cjoy.middleware",
+        "litem.bootstrap",
+        "mysql.cdbc",
+        "yaml4cj.yaml"
+      ],
+      "std-requires": [
+        "std.database.sql",
+        "std.fs"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    }
+  ],
+  "binDeps": {
+    "cjoy": {
+      "package-requires": {
+        "stdx.aspectCJ": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.aspectCJ"
+        },
+        "stdx.log": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.log"
+        },
+        "stdx.logger": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json.stream",
+            "stdx.log"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.io",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.logger"
+        },
+        "stdx.net": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.net"
+        },
+        "stdx.net.http": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.crypto.x509",
+            "stdx.encoding.base64",
+            "stdx.encoding.url",
+            "stdx.log",
+            "stdx.logger",
+            "stdx.net.tls"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.console",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.net",
+            "std.process",
+            "std.sort",
+            "std.sync",
+            "std.time",
+            "std.unicode"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.net.http"
+        },
+        "stdx.net.tls": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection.concurrent",
+            "std.io",
+            "std.net",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.net.tls"
+        },
+        "stdx.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.serialization"
+        },
+        "stdx.serialization.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.serialization.serialization"
+        },
+        "stdx.unittest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.unittest"
+        },
+        "stdx.unittest.data": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json",
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.math",
+            "std.unittest.common"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.unittest.data"
+        },
+        "stdx": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx"
+        },
+        "stdx.crypto.x509": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.encoding.base64",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.fs",
+            "std.io",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.crypto.x509"
+        },
+        "stdx.compress": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.compress"
+        },
+        "stdx.encoding.base64": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.encoding.base64"
+        },
+        "stdx.compress.zlib": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.io"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.compress.zlib"
+        },
+        "stdx.encoding": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.encoding"
+        },
+        "stdx.crypto": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.crypto"
+        },
+        "stdx.encoding.json.stream": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.io",
+            "std.math.numeric",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.encoding.json.stream"
+        },
+        "stdx.crypto.crypto": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest"
+          ],
+          "std-requires": [
+            "std.crypto.cipher",
+            "std.io",
+            "std.math",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.crypto.crypto"
+        },
+        "stdx.encoding.hex": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.encoding.hex"
+        },
+        "stdx.encoding.url": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.encoding.url"
+        },
+        "stdx.encoding.json": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.encoding.json"
+        },
+        "stdx.crypto.digest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.crypto.digest"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.crypto.digest"
+        },
+        "stdx.crypto.keys": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509"
+          ],
+          "std-requires": [
+            "std.crypto.digest",
+            "std.io",
+            "std.math.numeric",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static",
+          "libPath": "E:\\CJ\\cangjiestdx/windows_x86_64_llvm/static/stdx",
+          "libName": "stdx.crypto.keys"
+        }
+      },
+      "packageRequiresSort": [
+        "stdx",
+        "stdx.aspectCJ",
+        "stdx.compress",
+        "stdx.compress.zlib",
+        "stdx.crypto",
+        "stdx.crypto.digest",
+        "stdx.crypto.crypto",
+        "stdx.encoding",
+        "stdx.encoding.base64",
+        "stdx.encoding.hex",
+        "stdx.crypto.x509",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.log",
+        "stdx.logger",
+        "stdx.net",
+        "stdx.net.tls",
+        "stdx.net.http",
+        "stdx.serialization",
+        "stdx.serialization.serialization",
+        "stdx.encoding.json",
+        "stdx.unittest",
+        "stdx.unittest.data"
+      ]
+    },
+    "jwt4cj": {
+      "package-requires": {
+        "stdx.aspectCJ": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.aspectCJ"
+        },
+        "stdx": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx"
+        },
+        "stdx.compress": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress"
+        },
+        "stdx.log": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.log"
+        },
+        "stdx.crypto": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto"
+        },
+        "stdx.encoding.hex": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.hex"
+        },
+        "stdx.compress.zlib": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.io"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress.zlib"
+        },
+        "stdx.net": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net"
+        },
+        "stdx.crypto.keys": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509"
+          ],
+          "std-requires": [
+            "std.crypto.digest",
+            "std.io",
+            "std.math.numeric",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.keys"
+        },
+        "stdx.crypto.crypto": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest"
+          ],
+          "std-requires": [
+            "std.crypto.cipher",
+            "std.io",
+            "std.math",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.crypto"
+        },
+        "stdx.encoding.json.stream": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.io",
+            "std.math.numeric",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json.stream"
+        },
+        "stdx.logger": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json.stream",
+            "stdx.log"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.io",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.logger"
+        },
+        "stdx.serialization.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization.serialization"
+        },
+        "stdx.unittest.data": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json",
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.math",
+            "std.unittest.common"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest.data"
+        },
+        "stdx.encoding.base64": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.base64"
+        },
+        "stdx.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization"
+        },
+        "stdx.encoding.json": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json"
+        },
+        "stdx.crypto.digest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.crypto.digest"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.digest"
+        },
+        "stdx.net.http": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.crypto.x509",
+            "stdx.encoding.base64",
+            "stdx.encoding.url",
+            "stdx.log",
+            "stdx.logger",
+            "stdx.net.tls"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.console",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.net",
+            "std.process",
+            "std.sort",
+            "std.sync",
+            "std.time",
+            "std.unicode"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.http"
+        },
+        "stdx.crypto.x509": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.encoding.base64",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.fs",
+            "std.io",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.x509"
+        },
+        "stdx.net.tls": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection.concurrent",
+            "std.io",
+            "std.net",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.tls"
+        },
+        "stdx.encoding": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding"
+        },
+        "stdx.unittest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest"
+        },
+        "stdx.encoding.url": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.url"
+        }
+      },
+      "packageRequiresSort": [
+        "stdx",
+        "stdx.aspectCJ",
+        "stdx.compress",
+        "stdx.compress.zlib",
+        "stdx.crypto",
+        "stdx.crypto.digest",
+        "stdx.crypto.crypto",
+        "stdx.encoding",
+        "stdx.encoding.base64",
+        "stdx.encoding.hex",
+        "stdx.crypto.x509",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.log",
+        "stdx.logger",
+        "stdx.net",
+        "stdx.net.tls",
+        "stdx.net.http",
+        "stdx.serialization",
+        "stdx.serialization.serialization",
+        "stdx.encoding.json",
+        "stdx.unittest",
+        "stdx.unittest.data"
+      ]
+    },
+    "yaml4cj": {
+      "package-requires": {
+        "stdx.compress": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress"
+        },
+        "stdx.log": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.log"
+        },
+        "stdx.aspectCJ": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.aspectCJ"
+        },
+        "stdx.compress.zlib": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.io"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress.zlib"
+        },
+        "stdx": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx"
+        },
+        "stdx.crypto": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto"
+        },
+        "stdx.net": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net"
+        },
+        "stdx.crypto.crypto": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest"
+          ],
+          "std-requires": [
+            "std.crypto.cipher",
+            "std.io",
+            "std.math",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.crypto"
+        },
+        "stdx.crypto.keys": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509"
+          ],
+          "std-requires": [
+            "std.crypto.digest",
+            "std.io",
+            "std.math.numeric",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.keys"
+        },
+        "stdx.net.http": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.crypto.x509",
+            "stdx.encoding.base64",
+            "stdx.encoding.url",
+            "stdx.log",
+            "stdx.logger",
+            "stdx.net.tls"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.console",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.net",
+            "std.process",
+            "std.sort",
+            "std.sync",
+            "std.time",
+            "std.unicode"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.http"
+        },
+        "stdx.logger": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json.stream",
+            "stdx.log"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.io",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.logger"
+        },
+        "stdx.crypto.x509": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.encoding.base64",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.fs",
+            "std.io",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.x509"
+        },
+        "stdx.serialization.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization.serialization"
+        },
+        "stdx.crypto.digest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.crypto.digest"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.digest"
+        },
+        "stdx.encoding.base64": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.base64"
+        },
+        "stdx.encoding.url": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.url"
+        },
+        "stdx.encoding.hex": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.hex"
+        },
+        "stdx.unittest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest"
+        },
+        "stdx.encoding.json": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json"
+        },
+        "stdx.encoding": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding"
+        },
+        "stdx.unittest.data": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json",
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.math",
+            "std.unittest.common"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest.data"
+        },
+        "stdx.encoding.json.stream": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.io",
+            "std.math.numeric",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json.stream"
+        },
+        "stdx.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization"
+        },
+        "stdx.net.tls": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection.concurrent",
+            "std.io",
+            "std.net",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.tls"
+        }
+      },
+      "packageRequiresSort": [
+        "stdx",
+        "stdx.aspectCJ",
+        "stdx.compress",
+        "stdx.compress.zlib",
+        "stdx.crypto",
+        "stdx.crypto.digest",
+        "stdx.crypto.crypto",
+        "stdx.encoding",
+        "stdx.encoding.base64",
+        "stdx.encoding.hex",
+        "stdx.crypto.x509",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.log",
+        "stdx.logger",
+        "stdx.net",
+        "stdx.net.tls",
+        "stdx.net.http",
+        "stdx.serialization",
+        "stdx.serialization.serialization",
+        "stdx.encoding.json",
+        "stdx.unittest",
+        "stdx.unittest.data"
+      ]
+    },
+    "cjjson": {
+      "package-requires": {
+        "stdx.log": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.log"
+        },
+        "stdx.aspectCJ": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.aspectCJ"
+        },
+        "stdx.compress.zlib": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.io"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress.zlib"
+        },
+        "stdx.logger": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json.stream",
+            "stdx.log"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.io",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.logger"
+        },
+        "stdx.encoding": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding"
+        },
+        "stdx.net.tls": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection.concurrent",
+            "std.io",
+            "std.net",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.tls"
+        },
+        "stdx.net.http": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.crypto.x509",
+            "stdx.encoding.base64",
+            "stdx.encoding.url",
+            "stdx.log",
+            "stdx.logger",
+            "stdx.net.tls"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.console",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.net",
+            "std.process",
+            "std.sort",
+            "std.sync",
+            "std.time",
+            "std.unicode"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.http"
+        },
+        "stdx.crypto": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto"
+        },
+        "stdx.unittest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest"
+        },
+        "stdx": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx"
+        },
+        "stdx.crypto.crypto": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest"
+          ],
+          "std-requires": [
+            "std.crypto.cipher",
+            "std.io",
+            "std.math",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.crypto"
+        },
+        "stdx.encoding.url": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.url"
+        },
+        "stdx.serialization.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization.serialization"
+        },
+        "stdx.compress": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress"
+        },
+        "stdx.crypto.digest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.crypto.digest"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.digest"
+        },
+        "stdx.unittest.data": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json",
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.math",
+            "std.unittest.common"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest.data"
+        },
+        "stdx.crypto.keys": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509"
+          ],
+          "std-requires": [
+            "std.crypto.digest",
+            "std.io",
+            "std.math.numeric",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.keys"
+        },
+        "stdx.net": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net"
+        },
+        "stdx.crypto.x509": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.encoding.base64",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.fs",
+            "std.io",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.x509"
+        },
+        "stdx.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization"
+        },
+        "stdx.encoding.json.stream": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.io",
+            "std.math.numeric",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json.stream"
+        },
+        "stdx.encoding.base64": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.base64"
+        },
+        "stdx.encoding.hex": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.hex"
+        },
+        "stdx.encoding.json": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json"
+        }
+      },
+      "packageRequiresSort": [
+        "stdx",
+        "stdx.aspectCJ",
+        "stdx.compress",
+        "stdx.compress.zlib",
+        "stdx.crypto",
+        "stdx.crypto.digest",
+        "stdx.crypto.crypto",
+        "stdx.encoding",
+        "stdx.encoding.base64",
+        "stdx.encoding.hex",
+        "stdx.crypto.x509",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.log",
+        "stdx.logger",
+        "stdx.net",
+        "stdx.net.tls",
+        "stdx.net.http",
+        "stdx.serialization",
+        "stdx.serialization.serialization",
+        "stdx.encoding.json",
+        "stdx.unittest",
+        "stdx.unittest.data"
+      ]
+    },
+    "mysql": {
+      "package-requires": {
+        "stdx.log": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.log"
+        },
+        "stdx.aspectCJ": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.aspectCJ"
+        },
+        "stdx.encoding.base64": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.base64"
+        },
+        "stdx.logger": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json.stream",
+            "stdx.log"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.io",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.logger"
+        },
+        "stdx.net.tls": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection.concurrent",
+            "std.io",
+            "std.net",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.tls"
+        },
+        "stdx.compress.zlib": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.io"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress.zlib"
+        },
+        "stdx.net.http": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.crypto.x509",
+            "stdx.encoding.base64",
+            "stdx.encoding.url",
+            "stdx.log",
+            "stdx.logger",
+            "stdx.net.tls"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.console",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.net",
+            "std.process",
+            "std.sort",
+            "std.sync",
+            "std.time",
+            "std.unicode"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.http"
+        },
+        "stdx.compress": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress"
+        },
+        "stdx.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization"
+        },
+        "stdx": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx"
+        },
+        "stdx.net": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net"
+        },
+        "stdx.encoding.json": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json"
+        },
+        "stdx.serialization.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization.serialization"
+        },
+        "stdx.crypto.x509": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.encoding.base64",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.fs",
+            "std.io",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.x509"
+        },
+        "stdx.unittest.data": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json",
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.math",
+            "std.unittest.common"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest.data"
+        },
+        "stdx.crypto": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto"
+        },
+        "stdx.unittest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest"
+        },
+        "stdx.encoding": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding"
+        },
+        "stdx.encoding.url": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.url"
+        },
+        "stdx.encoding.json.stream": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.io",
+            "std.math.numeric",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json.stream"
+        },
+        "stdx.crypto.keys": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509"
+          ],
+          "std-requires": [
+            "std.crypto.digest",
+            "std.io",
+            "std.math.numeric",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.keys"
+        },
+        "stdx.encoding.hex": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.hex"
+        },
+        "stdx.crypto.digest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.crypto.digest"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.digest"
+        },
+        "stdx.crypto.crypto": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest"
+          ],
+          "std-requires": [
+            "std.crypto.cipher",
+            "std.io",
+            "std.math",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.crypto"
+        }
+      },
+      "packageRequiresSort": [
+        "stdx",
+        "stdx.aspectCJ",
+        "stdx.compress",
+        "stdx.compress.zlib",
+        "stdx.crypto",
+        "stdx.crypto.digest",
+        "stdx.crypto.crypto",
+        "stdx.encoding",
+        "stdx.encoding.base64",
+        "stdx.encoding.hex",
+        "stdx.crypto.x509",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.log",
+        "stdx.logger",
+        "stdx.net",
+        "stdx.net.tls",
+        "stdx.net.http",
+        "stdx.serialization",
+        "stdx.serialization.serialization",
+        "stdx.encoding.json",
+        "stdx.unittest",
+        "stdx.unittest.data"
+      ]
+    },
+    "litem": {
+      "package-requires": {
+        "stdx.aspectCJ": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.aspectCJ"
+        },
+        "stdx": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx"
+        },
+        "stdx.compress": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress"
+        },
+        "stdx.crypto.crypto": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest"
+          ],
+          "std-requires": [
+            "std.crypto.cipher",
+            "std.io",
+            "std.math",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.crypto"
+        },
+        "stdx.compress.zlib": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.io"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress.zlib"
+        },
+        "stdx.crypto.keys": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509"
+          ],
+          "std-requires": [
+            "std.crypto.digest",
+            "std.io",
+            "std.math.numeric",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.keys"
+        },
+        "stdx.crypto.digest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.crypto.digest"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.digest"
+        },
+        "stdx.crypto": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto"
+        },
+        "stdx.encoding.hex": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.hex"
+        },
+        "stdx.net.http": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.crypto.x509",
+            "stdx.encoding.base64",
+            "stdx.encoding.url",
+            "stdx.log",
+            "stdx.logger",
+            "stdx.net.tls"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.console",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.net",
+            "std.process",
+            "std.sort",
+            "std.sync",
+            "std.time",
+            "std.unicode"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.http"
+        },
+        "stdx.crypto.x509": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.encoding.base64",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.fs",
+            "std.io",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.x509"
+        },
+        "stdx.encoding.json": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json"
+        },
+        "stdx.encoding": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding"
+        },
+        "stdx.net.tls": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection.concurrent",
+            "std.io",
+            "std.net",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.tls"
+        },
+        "stdx.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization"
+        },
+        "stdx.serialization.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization.serialization"
+        },
+        "stdx.encoding.base64": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.base64"
+        },
+        "stdx.log": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.log"
+        },
+        "stdx.encoding.url": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.url"
+        },
+        "stdx.unittest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest"
+        },
+        "stdx.unittest.data": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json",
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.math",
+            "std.unittest.common"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest.data"
+        },
+        "stdx.net": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net"
+        },
+        "stdx.logger": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json.stream",
+            "stdx.log"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.io",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.logger"
+        },
+        "stdx.encoding.json.stream": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.io",
+            "std.math.numeric",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json.stream"
+        }
+      },
+      "packageRequiresSort": [
+        "stdx",
+        "stdx.aspectCJ",
+        "stdx.compress",
+        "stdx.compress.zlib",
+        "stdx.crypto",
+        "stdx.crypto.digest",
+        "stdx.crypto.crypto",
+        "stdx.encoding",
+        "stdx.encoding.base64",
+        "stdx.encoding.hex",
+        "stdx.crypto.x509",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.log",
+        "stdx.logger",
+        "stdx.net",
+        "stdx.net.tls",
+        "stdx.net.http",
+        "stdx.serialization",
+        "stdx.serialization.serialization",
+        "stdx.encoding.json",
+        "stdx.unittest",
+        "stdx.unittest.data"
+      ]
+    },
+    "cj2sql": {
+      "package-requires": {
+        "stdx.aspectCJ": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.aspectCJ"
+        },
+        "stdx": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx"
+        },
+        "stdx.compress": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress"
+        },
+        "stdx.crypto.crypto": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest"
+          ],
+          "std-requires": [
+            "std.crypto.cipher",
+            "std.io",
+            "std.math",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.crypto"
+        },
+        "stdx.log": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.log"
+        },
+        "stdx.compress.zlib": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.io"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.compress.zlib"
+        },
+        "stdx.logger": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json.stream",
+            "stdx.log"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.io",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.logger"
+        },
+        "stdx.net": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net"
+        },
+        "stdx.net.tls": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection.concurrent",
+            "std.io",
+            "std.net",
+            "std.sync",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.tls"
+        },
+        "stdx.crypto.x509": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.encoding.base64",
+            "stdx.encoding.hex"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.core",
+            "std.fs",
+            "std.io",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.x509"
+        },
+        "stdx.crypto.digest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.crypto.digest"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.digest"
+        },
+        "stdx.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization"
+        },
+        "stdx.crypto": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto"
+        },
+        "stdx.encoding.hex": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.hex"
+        },
+        "stdx.encoding.base64": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.base64"
+        },
+        "stdx.crypto.keys": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.digest",
+            "stdx.crypto.x509"
+          ],
+          "std-requires": [
+            "std.crypto.digest",
+            "std.io",
+            "std.math.numeric",
+            "std.sync"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.crypto.keys"
+        },
+        "stdx.serialization.serialization": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.serialization.serialization"
+        },
+        "stdx.encoding": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding"
+        },
+        "stdx.net.http": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.crypto.crypto",
+            "stdx.crypto.x509",
+            "stdx.encoding.base64",
+            "stdx.encoding.url",
+            "stdx.log",
+            "stdx.logger",
+            "stdx.net.tls"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.collection.concurrent",
+            "std.console",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.net",
+            "std.process",
+            "std.sort",
+            "std.sync",
+            "std.time",
+            "std.unicode"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.net.http"
+        },
+        "stdx.encoding.json": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json"
+        },
+        "stdx.encoding.json.stream": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.io",
+            "std.math.numeric",
+            "std.time"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.json.stream"
+        },
+        "stdx.encoding.url": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [
+            "std.collection"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.encoding.url"
+        },
+        "stdx.unittest": {
+          "isMacroPackage": false,
+          "requires": [],
+          "std-requires": [],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest"
+        },
+        "stdx.unittest.data": {
+          "isMacroPackage": false,
+          "requires": [
+            "stdx.encoding.json",
+            "stdx.serialization.serialization"
+          ],
+          "std-requires": [
+            "std.collection",
+            "std.convert",
+            "std.fs",
+            "std.io",
+            "std.math",
+            "std.unittest.common"
+          ],
+          "cjPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic",
+          "libPath": "E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx",
+          "libName": "stdx.unittest.data"
+        }
+      },
+      "packageRequiresSort": [
+        "stdx",
+        "stdx.aspectCJ",
+        "stdx.compress",
+        "stdx.compress.zlib",
+        "stdx.crypto",
+        "stdx.crypto.digest",
+        "stdx.crypto.crypto",
+        "stdx.encoding",
+        "stdx.encoding.base64",
+        "stdx.encoding.hex",
+        "stdx.crypto.x509",
+        "stdx.crypto.keys",
+        "stdx.encoding.json.stream",
+        "stdx.encoding.url",
+        "stdx.log",
+        "stdx.logger",
+        "stdx.net",
+        "stdx.net.tls",
+        "stdx.net.http",
+        "stdx.serialization",
+        "stdx.serialization.serialization",
+        "stdx.encoding.json",
+        "stdx.unittest",
+        "stdx.unittest.data"
+      ]
+    }
+  },
+  "crossBinDeps": {}
+}

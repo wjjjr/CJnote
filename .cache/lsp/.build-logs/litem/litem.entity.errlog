@@ -1,0 +1,33 @@
+[33mwarning[0m: unused import 'cj2sql.sql.statement.From'
+  [36m==>[0m E:\cjproject\CJnote\litem\src\entity\base.cj:12:1:
+   [36m| [0m
+[36m12[0m [36m| [0mimport cj2sql.sql.statement.From[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'cj2sql.sql.ExprUtil'
+  [36m==>[0m E:\cjproject\CJnote\litem\src\entity\base.cj:17:1:
+   [36m| [0m
+[36m17[0m [36m| [0mimport cj2sql.sql.ExprUtil[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'litem.entity.column.DbColumn'
+  [36m==>[0m E:\cjproject\CJnote\litem\src\entity\base.cj:18:1:
+   [36m| [0m
+[36m18[0m [36m| [0mimport litem.entity.column.DbColumn[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.database.sql.SqlDbType'
+ [36m==>[0m E:\cjproject\CJnote\litem\src\entity\entity_mapping.cj:3:1:
+  [36m| [0m
+[36m3[0m [36m| [0mimport std.database.sql.SqlDbType[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+4 warnings generated, 4 warnings printed.

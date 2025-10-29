@@ -1,0 +1,9 @@
+[33mwarning[0m: unused import 'std.unicode.UnicodeStringExtension'
+  [36m==>[0m E:\cjproject\CJnote\mysql-driver\src\protocol\client_handshake_response.cj:17:1:
+   [36m| [0m
+[36m17[0m [36m| [0mimport std.unicode.UnicodeStringExtension[0m
+   [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+1 warning generated, 1 warning printed.

@@ -1,0 +1,3 @@
+load cached info failed, roll back to full compilation
+incremental compile result kind: rollback
+full sema

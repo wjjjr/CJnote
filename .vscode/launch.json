@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cangjie (CJNative): launch",
+            "program": "E:\\cjproject\\CJnote\\target\\debug\\bin\\main.exe",
+            "request": "launch",
+            "type": "cangjieDebug",
+            "externalConsole": false,
+            "buildBeforeLaunch": true,
+            "env": {
+                "Path": "E:\\cjproject\\CJnote\\target\\debug\\cjoy;E:\\cjproject\\CJnote\\target\\debug\\cjjson;E:\\cjproject\\CJnote\\target\\debug\\mysql;E:\\cjproject\\CJnote\\target\\debug\\litem;E:\\cjproject\\CJnote\\target\\debug\\cj2sql;${env:Path};E:\\cjproject\\CJnote\\target\\debug\\jwt4cj;E:\\cjproject\\CJnote\\target\\debug\\yaml4cj;E:\\CJ\\cangjiestdx;E:\\CJ\\cangjiestdx\\windows_x86_64_llvm\\dynamic\\stdx"
+            },
+            "debugMacro": false
+        }
+    ]
+}

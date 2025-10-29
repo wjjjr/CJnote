@@ -1,0 +1,46 @@
+{
+  "packageInformation": {
+    "mysql": {
+      "rootPackageName": "mysql",
+      "fileNameHash": "7071562744257897766",
+      "timeStamp": 1761375585,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "mysql.xa": {
+      "rootPackageName": "mysql",
+      "fileNameHash": "3727539323605521749",
+      "timeStamp": 1761375585,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "mysql.protocol": {
+      "rootPackageName": "mysql",
+      "fileNameHash": "-3300281176876718001",
+      "timeStamp": 1761375585,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "mysql.cdbc": {
+      "rootPackageName": "mysql",
+      "fileNameHash": "4282886964061463564",
+      "timeStamp": 1761375585,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "mysql.connection": {
+      "rootPackageName": "mysql",
+      "fileNameHash": "5847165381575519561",
+      "timeStamp": 1761375585,
+      "isBuilt": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "-7537951675055660930",
+  "rootPackageName": "mysql"
+}

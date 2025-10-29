@@ -1,0 +1,9 @@
+[33mwarning[0m: unused import 'std.fs.*'
+ [36m==>[0m E:\cjproject\CJnote\src\routes\routes.cj:7:1:
+  [36m| [0m
+[36m7[0m [36m| [0mimport std.fs.*[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+1 warning generated, 1 warning printed.

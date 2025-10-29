@@ -1,0 +1,434 @@
+[33mwarning[0m: unused variable:'nestedValid'
+    [36m| [0m
+    [36m| [0m/* 53.46 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                   [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the code after the macro is expanded as follows
+    [36m| [0m
+    [36m| [0m  /* 53.1 */public class MemoIdReq <: JoyBindable < MemoIdReq > {[0m
+    [36m| [0m [34m_[0m[34m^[0m
+    [36m| [0m[34m|[0m /* 53.2 */    public var id: Int64 = 0[0m
+    [36m| [0m[34m|[0m /* 53.3 */    [0m
+    [36m| [0m[34m|[0m /* 53.4 */    [0m
+    [36m| [0m[34m|[0m /* 53.5 */    [0m
+    [36m| [0m[34m|[0m /* 53.6 */    public init(id!: Int64 = 0) {[0m
+    [36m| [0m[34m|[0m /* 53.7 */        this.id = id[0m
+    [36m| [0m[34m|[0m /* 53.8 */    }[0m
+    [36m| [0m[34m|[0m /* 53.9 */    [0m
+    [36m| [0m[34m|[0m /* 53.10 */    [0m
+    [36m| [0m[34m|[0m /* 53.11 */    public static func bind(source: JoyBindSource, name: String, _:?String, _:?String):?MemoIdReq {[0m
+    [36m| [0m[34m|[0m /* 53.12 */        if(name.isEmpty()) {[0m
+    [36m| [0m[34m|[0m /* 53.13 */            MemoIdReq([0m
+    [36m| [0m[34m|[0m /* 53.14 */            id: Int64.bind(source, "id", None, None).getOrDefault({ => 0 }))[0m
+    [36m| [0m[34m|[0m /* 53.15 */        } else {[0m
+    [36m| [0m[34m|[0m /* 53.16 */            bindField(source, name)[0m
+    [36m| [0m[34m|[0m /* 53.17 */        }[0m
+    [36m| [0m[34m|[0m /* 53.18 */    }[0m
+    [36m| [0m[34m|[0m /* 53.19 */    [0m
+    [36m| [0m[34m|[0m /* 53.20 */}[0m
+    [36m| [0m[34m|[0m /* 53.21 */[0m
+    [36m| [0m[34m|[0m /* 53.22 */extend MemoIdReq <: ToString {[0m
+    [36m| [0m[34m|[0m /* 53.23 */    public func toString(): String {[0m
+    [36m| [0m[34m|[0m /* 53.24 */        let sb = StringBuilder()[0m
+    [36m| [0m[34m|[0m /* 53.25 */        sb.append("MemoIdReq")[0m
+    [36m| [0m[34m|[0m /* 53.26 */        sb.append("(")[0m
+    [36m| [0m[34m|[0m /* 53.27 */        sb.append("id")[0m
+    [36m| [0m[34m|[0m /* 53.28 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 53.29 */        sb.append(this.id.toString())[0m
+    [36m| [0m[34m|[0m /* 53.30 */        sb.append(")")[0m
+    [36m| [0m[34m|[0m /* 53.31 */        return sb.toString()[0m
+    [36m| [0m[34m|[0m /* 53.32 */    }[0m
+    [36m| [0m[34m|[0m /* 53.33 */}[0m
+    [36m| [0m[34m|[0m /* 53.34 */extend MemoIdReq {[0m
+    [36m| [0m[34m|[0m /* 53.35 */    private func derivingChecks_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 53.36 */        let _: ToString = id[0m
+    [36m| [0m[34m|[0m /* 53.37 */        derivingChecks2_()[0m
+    [36m| [0m[34m|[0m /* 53.38 */    }[0m
+    [36m| [0m[34m|[0m /* 53.39 */    private func derivingChecks2_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 53.40 */        derivingChecks_()[0m
+    [36m| [0m[34m|[0m /* 53.41 */    }[0m
+    [36m| [0m[34m|[0m /* 53.42 */}[0m
+    [36m| [0m[34m|[0m /* 53.43 */[0m
+    [36m| [0m[34m|[0m /* 53.44 */extend MemoIdReq <: JoyValidatable {[0m
+    [36m| [0m[34m|[0m /* 53.45 */    [0m
+    [36m| [0m[34m|[0m /* 53.46 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m[34m|[0m /* 53.47 */        id.validate({ => if(field.isEmpty()) { "id" } else { "${field}.id" } }(), false, RangeConstraint("1", "100", "id 必须大于 0"))[0m
+    [36m| [0m[34m|[0m /* 53.48 */    }[0m
+    [36m| [0m[34m|[0m /* 53.49 */    [0m
+    [36m| [0m[34m|[0m /* 53.50 */}[0m
+    [36m| [0m[34m|[0m /* 53.51 */[0m
+    [36m| [0m[34m|[0m[34m_[0m[34m__________^[0m
+    [36m| [0m
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\req\memo.cj:53:1:
+   [36m| [0m
+[36m53[0m [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m54[0m [36m| [0m[34m|[0m @Bind[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m59[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+[33mwarning[0m: unused variable:'constraints'
+    [36m| [0m
+    [36m| [0m/* 53.46 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                                      [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\req\memo.cj:53:1:
+   [36m| [0m
+[36m53[0m [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m54[0m [36m| [0m[34m|[0m @Bind[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m59[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+[33mwarning[0m: unused variable:'field'
+    [36m| [0m
+    [36m| [0m/* 61.106 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                     [33m^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the code after the macro is expanded as follows
+    [36m| [0m
+    [36m| [0m  /* 61.1 */public class AddMemoIdReq <: JsonSerializable & JsonDeserializable < AddMemoIdReq > & Jsonable {[0m
+    [36m| [0m [34m_[0m[34m^[0m
+    [36m| [0m[34m|[0m /* 61.2 */    public var title: String = ""[0m
+    [36m| [0m[34m|[0m /* 61.3 */    [0m
+    [36m| [0m[34m|[0m /* 61.4 */    public var context: String = ""[0m
+    [36m| [0m[34m|[0m /* 61.5 */    [0m
+    [36m| [0m[34m|[0m /* 61.6 */    [0m
+    [36m| [0m[34m|[0m /* 61.7 */    [0m
+    [36m| [0m[34m|[0m /* 61.8 */    public init(title!: String = "", context!: String = "") {[0m
+    [36m| [0m[34m|[0m /* 61.9 */        this.title = title[0m
+    [36m| [0m[34m|[0m /* 61.10 */        this.context = context[0m
+    [36m| [0m[34m|[0m /* 61.11 */    }[0m
+    [36m| [0m[34m|[0m /* 61.12 */    [0m
+    [36m| [0m[34m|[0m /* 61.13 */    [0m
+    [36m| [0m[34m|[0m /* 61.14 */    [0m
+    [36m| [0m[34m|[0m /* 61.15 */    public func toJson(writer: JsonWriter): Unit {[0m
+    [36m| [0m[34m|[0m /* 61.16 */        writer.startObject()[0m
+    [36m| [0m[34m|[0m /* 61.17 */        [0m
+    [36m| [0m[34m|[0m /* 61.18 */        write(writer)[0m
+    [36m| [0m[34m|[0m /* 61.19 */        writer.endObject()[0m
+    [36m| [0m[34m|[0m /* 61.20 */    }[0m
+    [36m| [0m[34m|[0m /* 61.21 */    [0m
+    [36m| [0m[34m|[0m /* 61.22 */    protected func write(writer: JsonWriter): Unit {[0m
+    [36m| [0m[34m|[0m /* 61.23 */        writer.writeName("title").writeValue(title)[0m
+    [36m| [0m[34m|[0m /* 61.24 */        writer.writeName("context").writeValue(context)[0m
+    [36m| [0m[34m|[0m /* 61.25 */        [0m
+    [36m| [0m[34m|[0m /* 61.26 */    }[0m
+    [36m| [0m[34m|[0m /* 61.27 */    [0m
+    [36m| [0m[34m|[0m /* 61.28 */    [0m
+    [36m| [0m[34m|[0m /* 61.29 */    protected static func read(obj: AddMemoIdReq, name: String, reader: JsonReader): Bool {[0m
+    [36m| [0m[34m|[0m /* 61.30 */        match(name) {[0m
+    [36m| [0m[34m|[0m /* 61.31 */            case "title" => obj.title = reader.readValue < String >()[0m
+    [36m| [0m[34m|[0m /* 61.32 */            case "context" => obj.context = reader.readValue < String >()[0m
+    [36m| [0m[34m|[0m /* 61.33 */            [0m
+    [36m| [0m[34m|[0m /* 61.34 */            case _ => return true[0m
+    [36m| [0m[34m|[0m /* 61.35 */        }[0m
+    [36m| [0m[34m|[0m /* 61.36 */        return false[0m
+    [36m| [0m[34m|[0m /* 61.37 */    }[0m
+    [36m| [0m[34m|[0m /* 61.38 */    [0m
+    [36m| [0m[34m|[0m /* 61.39 */    public static func fromJson(reader: JsonReader): AddMemoIdReq {[0m
+    [36m| [0m[34m|[0m /* 61.40 */        var obj = AddMemoIdReq()[0m
+    [36m| [0m[34m|[0m /* 61.41 */        while(let Some(v) <- reader.peek()) {[0m
+    [36m| [0m[34m|[0m /* 61.42 */            match(v) {[0m
+    [36m| [0m[34m|[0m /* 61.43 */                case BeginObject =>[0m
+    [36m| [0m[34m|[0m /* 61.44 */                reader.startObject()[0m
+    [36m| [0m[34m|[0m /* 61.45 */                while(reader.peek() != EndObject) {[0m
+    [36m| [0m[34m|[0m /* 61.46 */                    let name = reader.readName()[0m
+    [36m| [0m[34m|[0m /* 61.47 */                    let skip = read(obj, name, reader)[0m
+    [36m| [0m[34m|[0m /* 61.48 */                    if(skip) { reader.skip() }[0m
+    [36m| [0m[34m|[0m /* 61.49 */                }[0m
+    [36m| [0m[34m|[0m /* 61.50 */                reader.endObject()[0m
+    [36m| [0m[34m|[0m /* 61.51 */                break[0m
+    [36m| [0m[34m|[0m /* 61.52 */                case _ => throw Exception("the token is not start object")[0m
+    [36m| [0m[34m|[0m /* 61.53 */            }[0m
+    [36m| [0m[34m|[0m /* 61.54 */        }[0m
+    [36m| [0m[34m|[0m /* 61.55 */        obj[0m
+    [36m| [0m[34m|[0m /* 61.56 */    }[0m
+    [36m| [0m[34m|[0m /* 61.57 */    [0m
+    [36m| [0m[34m|[0m /* 61.58 */    [0m
+    [36m| [0m[34m|[0m /* 61.59 */    protected static func schemaInfos(): Array < JsonSchemaInfo > {[0m
+    [36m| [0m[34m|[0m /* 61.60 */        let arr = ArrayList < JsonSchemaInfo >([JsonSchemaInfo("title", schemaType: JsonTool.getSchema < String >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 61.61 */        JsonSchemaInfo("context", schemaType: JsonTool.getSchema < String >(), description: "", required: true)])[0m
+    [36m| [0m[34m|[0m /* 61.62 */        [0m
+    [36m| [0m[34m|[0m /* 61.63 */        arr.toArray()[0m
+    [36m| [0m[34m|[0m /* 61.64 */    }[0m
+    [36m| [0m[34m|[0m /* 61.65 */    [0m
+    [36m| [0m[34m|[0m /* 61.66 */    public static func toSchema(): JsonSchemaType {[0m
+    [36m| [0m[34m|[0m /* 61.67 */        JsonSchemaType.Obj(AddMemoIdReq.schemaInfos())[0m
+    [36m| [0m[34m|[0m /* 61.68 */    }[0m
+    [36m| [0m[34m|[0m /* 61.69 */    [0m
+    [36m| [0m[34m|[0m /* 61.70 */    public static func toJsonSchema(): JsonSerializable {[0m
+    [36m| [0m[34m|[0m /* 61.71 */        toSchema().toJson(description: "")[0m
+    [36m| [0m[34m|[0m /* 61.72 */    }[0m
+    [36m| [0m[34m|[0m /* 61.73 */    [0m
+    [36m| [0m[34m|[0m /* 61.74 */    [0m
+    [36m| [0m[34m|[0m /* 61.75 */}[0m
+    [36m| [0m[34m|[0m /* 61.76 */[0m
+    [36m| [0m[34m|[0m /* 61.77 */extend AddMemoIdReq <: ToString {[0m
+    [36m| [0m[34m|[0m /* 61.78 */    public func toString(): String {[0m
+    [36m| [0m[34m|[0m /* 61.79 */        let sb = StringBuilder()[0m
+    [36m| [0m[34m|[0m /* 61.80 */        sb.append("AddMemoIdReq")[0m
+    [36m| [0m[34m|[0m /* 61.81 */        sb.append("(")[0m
+    [36m| [0m[34m|[0m /* 61.82 */        sb.append("title")[0m
+    [36m| [0m[34m|[0m /* 61.83 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 61.84 */        sb.append(this.title.toString())[0m
+    [36m| [0m[34m|[0m /* 61.85 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 61.86 */        sb.append("context")[0m
+    [36m| [0m[34m|[0m /* 61.87 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 61.88 */        sb.append(this.context.toString())[0m
+    [36m| [0m[34m|[0m /* 61.89 */        sb.append(")")[0m
+    [36m| [0m[34m|[0m /* 61.90 */        return sb.toString()[0m
+    [36m| [0m[34m|[0m /* 61.91 */    }[0m
+    [36m| [0m[34m|[0m /* 61.92 */}[0m
+    [36m| [0m[34m|[0m /* 61.93 */extend AddMemoIdReq {[0m
+    [36m| [0m[34m|[0m /* 61.94 */    private func derivingChecks_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 61.95 */        let _: ToString = title[0m
+    [36m| [0m[34m|[0m /* 61.96 */        let _: ToString = context[0m
+    [36m| [0m[34m|[0m /* 61.97 */        derivingChecks2_()[0m
+    [36m| [0m[34m|[0m /* 61.98 */    }[0m
+    [36m| [0m[34m|[0m /* 61.99 */    private func derivingChecks2_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 61.100 */        derivingChecks_()[0m
+    [36m| [0m[34m|[0m /* 61.101 */    }[0m
+    [36m| [0m[34m|[0m /* 61.102 */}[0m
+    [36m| [0m[34m|[0m /* 61.103 */[0m
+    [36m| [0m[34m|[0m /* 61.104 */extend AddMemoIdReq <: JoyValidatable {[0m
+    [36m| [0m[34m|[0m /* 61.105 */    [0m
+    [36m| [0m[34m|[0m /* 61.106 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m[34m|[0m /* 61.107 */        [0m
+    [36m| [0m[34m|[0m /* 61.108 */        [0m
+    [36m| [0m[34m|[0m /* 61.109 */    }[0m
+    [36m| [0m[34m|[0m /* 61.110 */    [0m
+    [36m| [0m[34m|[0m /* 61.111 */}[0m
+    [36m| [0m[34m|[0m /* 61.112 */[0m
+    [36m| [0m[34m|[0m[34m_[0m[34m___________^[0m
+    [36m| [0m
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\req\memo.cj:61:1:
+   [36m| [0m
+[36m61[0m [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m62[0m [36m| [0m[34m|[0m @Json[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m67[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+[33mwarning[0m: unused variable:'nestedValid'
+    [36m| [0m
+    [36m| [0m/* 61.106 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                    [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\req\memo.cj:61:1:
+   [36m| [0m
+[36m61[0m [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m62[0m [36m| [0m[34m|[0m @Json[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m67[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+[33mwarning[0m: unused variable:'constraints'
+    [36m| [0m
+    [36m| [0m/* 61.106 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                                       [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\req\memo.cj:61:1:
+   [36m| [0m
+[36m61[0m [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m62[0m [36m| [0m[34m|[0m @Json[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m67[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+[33mwarning[0m: unused variable:'nestedValid'
+    [36m| [0m
+    [36m| [0m/* 70.128 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                    [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the code after the macro is expanded as follows
+    [36m| [0m
+    [36m| [0m  /* 70.1 */public class UpdateMemoIdReq <: JsonSerializable & JsonDeserializable < UpdateMemoIdReq > & Jsonable {[0m
+    [36m| [0m [34m_[0m[34m^[0m
+    [36m| [0m[34m|[0m /* 70.2 */    public var id: UInt64 = 0[0m
+    [36m| [0m[34m|[0m /* 70.3 */    [0m
+    [36m| [0m[34m|[0m /* 70.4 */    public var title: String = ""[0m
+    [36m| [0m[34m|[0m /* 70.5 */    [0m
+    [36m| [0m[34m|[0m /* 70.6 */    public var context: String = ""[0m
+    [36m| [0m[34m|[0m /* 70.7 */    [0m
+    [36m| [0m[34m|[0m /* 70.8 */    public var status: UInt64 = 0[0m
+    [36m| [0m[34m|[0m /* 70.9 */    [0m
+    [36m| [0m[34m|[0m /* 70.10 */    [0m
+    [36m| [0m[34m|[0m /* 70.11 */    [0m
+    [36m| [0m[34m|[0m /* 70.12 */    public init(id!: UInt64 = 0, title!: String = "", context!: String = "", status!: UInt64 = 0) {[0m
+    [36m| [0m[34m|[0m /* 70.13 */        this.id = id[0m
+    [36m| [0m[34m|[0m /* 70.14 */        this.title = title[0m
+    [36m| [0m[34m|[0m /* 70.15 */        this.context = context[0m
+    [36m| [0m[34m|[0m /* 70.16 */        this.status = status[0m
+    [36m| [0m[34m|[0m /* 70.17 */    }[0m
+    [36m| [0m[34m|[0m /* 70.18 */    [0m
+    [36m| [0m[34m|[0m /* 70.19 */    [0m
+    [36m| [0m[34m|[0m /* 70.20 */    [0m
+    [36m| [0m[34m|[0m /* 70.21 */    public func toJson(writer: JsonWriter): Unit {[0m
+    [36m| [0m[34m|[0m /* 70.22 */        writer.startObject()[0m
+    [36m| [0m[34m|[0m /* 70.23 */        [0m
+    [36m| [0m[34m|[0m /* 70.24 */        write(writer)[0m
+    [36m| [0m[34m|[0m /* 70.25 */        writer.endObject()[0m
+    [36m| [0m[34m|[0m /* 70.26 */    }[0m
+    [36m| [0m[34m|[0m /* 70.27 */    [0m
+    [36m| [0m[34m|[0m /* 70.28 */    protected func write(writer: JsonWriter): Unit {[0m
+    [36m| [0m[34m|[0m /* 70.29 */        writer.writeName("id").writeValue(id)[0m
+    [36m| [0m[34m|[0m /* 70.30 */        writer.writeName("title").writeValue(title)[0m
+    [36m| [0m[34m|[0m /* 70.31 */        writer.writeName("context").writeValue(context)[0m
+    [36m| [0m[34m|[0m /* 70.32 */        writer.writeName("status").writeValue(status)[0m
+    [36m| [0m[34m|[0m /* 70.33 */        [0m
+    [36m| [0m[34m|[0m /* 70.34 */    }[0m
+    [36m| [0m[34m|[0m /* 70.35 */    [0m
+    [36m| [0m[34m|[0m /* 70.36 */    [0m
+    [36m| [0m[34m|[0m /* 70.37 */    protected static func read(obj: UpdateMemoIdReq, name: String, reader: JsonReader): Bool {[0m
+    [36m| [0m[34m|[0m /* 70.38 */        match(name) {[0m
+    [36m| [0m[34m|[0m /* 70.39 */            case "id" => obj.id = reader.readValue < UInt64 >()[0m
+    [36m| [0m[34m|[0m /* 70.40 */            case "title" => obj.title = reader.readValue < String >()[0m
+    [36m| [0m[34m|[0m /* 70.41 */            case "context" => obj.context = reader.readValue < String >()[0m
+    [36m| [0m[34m|[0m /* 70.42 */            case "status" => obj.status = reader.readValue < UInt64 >()[0m
+    [36m| [0m[34m|[0m /* 70.43 */            [0m
+    [36m| [0m[34m|[0m /* 70.44 */            case _ => return true[0m
+    [36m| [0m[34m|[0m /* 70.45 */        }[0m
+    [36m| [0m[34m|[0m /* 70.46 */        return false[0m
+    [36m| [0m[34m|[0m /* 70.47 */    }[0m
+    [36m| [0m[34m|[0m /* 70.48 */    [0m
+    [36m| [0m[34m|[0m /* 70.49 */    public static func fromJson(reader: JsonReader): UpdateMemoIdReq {[0m
+    [36m| [0m[34m|[0m /* 70.50 */        var obj = UpdateMemoIdReq()[0m
+    [36m| [0m[34m|[0m /* 70.51 */        while(let Some(v) <- reader.peek()) {[0m
+    [36m| [0m[34m|[0m /* 70.52 */            match(v) {[0m
+    [36m| [0m[34m|[0m /* 70.53 */                case BeginObject =>[0m
+    [36m| [0m[34m|[0m /* 70.54 */                reader.startObject()[0m
+    [36m| [0m[34m|[0m /* 70.55 */                while(reader.peek() != EndObject) {[0m
+    [36m| [0m[34m|[0m /* 70.56 */                    let name = reader.readName()[0m
+    [36m| [0m[34m|[0m /* 70.57 */                    let skip = read(obj, name, reader)[0m
+    [36m| [0m[34m|[0m /* 70.58 */                    if(skip) { reader.skip() }[0m
+    [36m| [0m[34m|[0m /* 70.59 */                }[0m
+    [36m| [0m[34m|[0m /* 70.60 */                reader.endObject()[0m
+    [36m| [0m[34m|[0m /* 70.61 */                break[0m
+    [36m| [0m[34m|[0m /* 70.62 */                case _ => throw Exception("the token is not start object")[0m
+    [36m| [0m[34m|[0m /* 70.63 */            }[0m
+    [36m| [0m[34m|[0m /* 70.64 */        }[0m
+    [36m| [0m[34m|[0m /* 70.65 */        obj[0m
+    [36m| [0m[34m|[0m /* 70.66 */    }[0m
+    [36m| [0m[34m|[0m /* 70.67 */    [0m
+    [36m| [0m[34m|[0m /* 70.68 */    [0m
+    [36m| [0m[34m|[0m /* 70.69 */    protected static func schemaInfos(): Array < JsonSchemaInfo > {[0m
+    [36m| [0m[34m|[0m /* 70.70 */        let arr = ArrayList < JsonSchemaInfo >([JsonSchemaInfo("id", schemaType: JsonTool.getSchema < UInt64 >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 70.71 */        JsonSchemaInfo("title", schemaType: JsonTool.getSchema < String >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 70.72 */        JsonSchemaInfo("context", schemaType: JsonTool.getSchema < String >(), description: "", required: true),[0m
+    [36m| [0m[34m|[0m /* 70.73 */        JsonSchemaInfo("status", schemaType: JsonTool.getSchema < UInt64 >(), description: "", required: true)])[0m
+    [36m| [0m[34m|[0m /* 70.74 */        [0m
+    [36m| [0m[34m|[0m /* 70.75 */        arr.toArray()[0m
+    [36m| [0m[34m|[0m /* 70.76 */    }[0m
+    [36m| [0m[34m|[0m /* 70.77 */    [0m
+    [36m| [0m[34m|[0m /* 70.78 */    public static func toSchema(): JsonSchemaType {[0m
+    [36m| [0m[34m|[0m /* 70.79 */        JsonSchemaType.Obj(UpdateMemoIdReq.schemaInfos())[0m
+    [36m| [0m[34m|[0m /* 70.80 */    }[0m
+    [36m| [0m[34m|[0m /* 70.81 */    [0m
+    [36m| [0m[34m|[0m /* 70.82 */    public static func toJsonSchema(): JsonSerializable {[0m
+    [36m| [0m[34m|[0m /* 70.83 */        toSchema().toJson(description: "")[0m
+    [36m| [0m[34m|[0m /* 70.84 */    }[0m
+    [36m| [0m[34m|[0m /* 70.85 */    [0m
+    [36m| [0m[34m|[0m /* 70.86 */    [0m
+    [36m| [0m[34m|[0m /* 70.87 */}[0m
+    [36m| [0m[34m|[0m /* 70.88 */[0m
+    [36m| [0m[34m|[0m /* 70.89 */extend UpdateMemoIdReq <: ToString {[0m
+    [36m| [0m[34m|[0m /* 70.90 */    public func toString(): String {[0m
+    [36m| [0m[34m|[0m /* 70.91 */        let sb = StringBuilder()[0m
+    [36m| [0m[34m|[0m /* 70.92 */        sb.append("UpdateMemoIdReq")[0m
+    [36m| [0m[34m|[0m /* 70.93 */        sb.append("(")[0m
+    [36m| [0m[34m|[0m /* 70.94 */        sb.append("id")[0m
+    [36m| [0m[34m|[0m /* 70.95 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 70.96 */        sb.append(this.id.toString())[0m
+    [36m| [0m[34m|[0m /* 70.97 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 70.98 */        sb.append("title")[0m
+    [36m| [0m[34m|[0m /* 70.99 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 70.100 */        sb.append(this.title.toString())[0m
+    [36m| [0m[34m|[0m /* 70.101 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 70.102 */        sb.append("context")[0m
+    [36m| [0m[34m|[0m /* 70.103 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 70.104 */        sb.append(this.context.toString())[0m
+    [36m| [0m[34m|[0m /* 70.105 */        sb.append(", ")[0m
+    [36m| [0m[34m|[0m /* 70.106 */        sb.append("status")[0m
+    [36m| [0m[34m|[0m /* 70.107 */        sb.append(": ")[0m
+    [36m| [0m[34m|[0m /* 70.108 */        sb.append(this.status.toString())[0m
+    [36m| [0m[34m|[0m /* 70.109 */        sb.append(")")[0m
+    [36m| [0m[34m|[0m /* 70.110 */        return sb.toString()[0m
+    [36m| [0m[34m|[0m /* 70.111 */    }[0m
+    [36m| [0m[34m|[0m /* 70.112 */}[0m
+    [36m| [0m[34m|[0m /* 70.113 */extend UpdateMemoIdReq {[0m
+    [36m| [0m[34m|[0m /* 70.114 */    private func derivingChecks_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 70.115 */        let _: ToString = id[0m
+    [36m| [0m[34m|[0m /* 70.116 */        let _: ToString = title[0m
+    [36m| [0m[34m|[0m /* 70.117 */        let _: ToString = context[0m
+    [36m| [0m[34m|[0m /* 70.118 */        let _: ToString = status[0m
+    [36m| [0m[34m|[0m /* 70.119 */        derivingChecks2_()[0m
+    [36m| [0m[34m|[0m /* 70.120 */    }[0m
+    [36m| [0m[34m|[0m /* 70.121 */    private func derivingChecks2_(): Unit {[0m
+    [36m| [0m[34m|[0m /* 70.122 */        derivingChecks_()[0m
+    [36m| [0m[34m|[0m /* 70.123 */    }[0m
+    [36m| [0m[34m|[0m /* 70.124 */}[0m
+    [36m| [0m[34m|[0m /* 70.125 */[0m
+    [36m| [0m[34m|[0m /* 70.126 */extend UpdateMemoIdReq <: JoyValidatable {[0m
+    [36m| [0m[34m|[0m /* 70.127 */    [0m
+    [36m| [0m[34m|[0m /* 70.128 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m[34m|[0m /* 70.129 */        id.validate({ => if(field.isEmpty()) { "id" } else { "${field}.id" } }(), false, RangeConstraint("1", "100", "id 必须大于 0"))[0m
+    [36m| [0m[34m|[0m /* 70.130 */        [0m
+    [36m| [0m[34m|[0m /* 70.131 */        [0m
+    [36m| [0m[34m|[0m /* 70.132 */        [0m
+    [36m| [0m[34m|[0m /* 70.133 */    }[0m
+    [36m| [0m[34m|[0m /* 70.134 */    [0m
+    [36m| [0m[34m|[0m /* 70.135 */}[0m
+    [36m| [0m[34m|[0m /* 70.136 */[0m
+    [36m| [0m[34m|[0m[34m_[0m[34m___________^[0m
+    [36m| [0m
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\req\memo.cj:70:1:
+   [36m| [0m
+[36m70[0m [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m71[0m [36m| [0m[34m|[0m @Json[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m79[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+[33mwarning[0m: unused variable:'constraints'
+    [36m| [0m
+    [36m| [0m/* 70.128 */    public func validate(field: String, nestedValid: Bool, constraints: Array < JoyConstraint >): Unit {[0m
+    [36m| [0m                                                                       [33m^^^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+[34mnote[0m: the warning occurs after the macro is expanded
+  [36m==>[0m E:\cjproject\CJnote\src\req\memo.cj:70:1:
+   [36m| [0m
+[36m70[0m [36m| [0m  @Valid[0m
+   [36m| [0m [34m_[0m[34m^[0m
+[36m71[0m [36m| [0m[34m|[0m @Json[0m
+   [36m| [0m[34m|[0m ...[0m
+[36m79[0m [36m| [0m[34m|[0m }[0m
+   [36m| [0m[34m|[0m[34m_[0m[34m^[0m
+   [36m| [0m
+
+7 warnings generated, 7 warnings printed.

@@ -1,0 +1,33 @@
+[33mwarning[0m: unused import 'std.collection.collectArrayList'
+ [36m==>[0m E:\cjproject\CJnote\cj2sql\src\sql\expr\sql_case_when_expr.cj:4:1:
+  [36m| [0m
+[36m4[0m [36m| [0mimport std.collection.collectArrayList[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.collection.map'
+ [36m==>[0m E:\cjproject\CJnote\cj2sql\src\sql\expr\sql_case_when_expr.cj:6:1:
+  [36m| [0m
+[36m6[0m [36m| [0mimport std.collection.map[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.collection.collectString'
+ [36m==>[0m E:\cjproject\CJnote\cj2sql\src\sql\expr\sql_condition.cj:4:1:
+  [36m| [0m
+[36m4[0m [36m| [0mimport std.collection.collectString[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused import 'std.collection.filter'
+ [36m==>[0m E:\cjproject\CJnote\cj2sql\src\sql\expr\sql_condition.cj:5:1:
+  [36m| [0m
+[36m5[0m [36m| [0mimport std.collection.filter[0m
+  [36m| [0m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unused import[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+4 warnings generated, 4 warnings printed.
